@@ -2,13 +2,13 @@ from rest_framework import generics
 
 from tags.mixins import UserQuerySetMixin
 from tags.models import Tag
-from tags.serializers import TagSerializer
+from tags.serializers import TagSerializer, TagUpdateSerializer
 
 
 class TagDetailAPIView(UserQuerySetMixin, generics.RetrieveAPIView):
     queryset = Tag.objects.all()
     serializer_class = TagSerializer
-    lookup_field = "pk"
+    lookup_field = "id"
 
 
 class TagListCreateAPIView(UserQuerySetMixin, generics.ListCreateAPIView):
@@ -21,12 +21,14 @@ class TagListCreateAPIView(UserQuerySetMixin, generics.ListCreateAPIView):
 
 class TagUpdateAPIView(UserQuerySetMixin, generics.UpdateAPIView):
     queryset = Tag.objects.all()
-    serializer_class = TagSerializer
+    serializer_class = TagUpdateSerializer
+    lookup_field = "id"
 
 
 class TagDestroyAPIView(UserQuerySetMixin, generics.DestroyAPIView):
     queryset = Tag.objects.all()
     serializer_class = TagSerializer
+    lookup_field = "id"
 
 
 tag_detail_view = TagDetailAPIView.as_view()
