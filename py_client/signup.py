@@ -3,8 +3,8 @@ import requests
 # SignUp endpoint
 signup_endpoint = "http://localhost:8000/api/auth/signup/"
 signup_data = {
-    'username': "test_user_4",
-    'password': '12345678',
+    'username': "test_user_1",
+    'password': 'Mm34567*',
     'email':'test@gmail.com',
     'address':'test_address',
     'phone_number':'12345678'

@@ -1,17 +1,21 @@
 from rest_framework import generics
 
-from tags.mixins import UserQuerySetMixin
+from tags.mixins import SuperuserSerializerMixin, UserQuerySetMixin
 from tags.models import Tag
-from tags.serializers import TagSerializer
+from tags.serializers import TagSerializer, TagUpdateSerializer
 
 
-class TagDetailAPIView(UserQuerySetMixin, generics.RetrieveAPIView):
+class TagDetailAPIView(
+    UserQuerySetMixin, SuperuserSerializerMixin, generics.RetrieveAPIView
+):
     queryset = Tag.objects.all()
     serializer_class = TagSerializer
-    lookup_field = "pk"
+    lookup_field = "id"
 
 
-class TagListCreateAPIView(UserQuerySetMixin, generics.ListCreateAPIView):
+class TagListCreateAPIView(
+    UserQuerySetMixin, SuperuserSerializerMixin, generics.ListCreateAPIView
+):
     queryset = Tag.objects.all()
     serializer_class = TagSerializer
 
@@ -19,14 +23,20 @@ class TagListCreateAPIView(UserQuerySetMixin, generics.ListCreateAPIView):
         serializer.save(owner=self.request.user)
 
 
-class TagUpdateAPIView(UserQuerySetMixin, generics.UpdateAPIView):
+class TagUpdateAPIView(
+    UserQuerySetMixin, SuperuserSerializerMixin, generics.UpdateAPIView
+):
     queryset = Tag.objects.all()
-    serializer_class = TagSerializer
+    serializer_class = TagUpdateSerializer
+    lookup_field = "id"
 
 
-class TagDestroyAPIView(UserQuerySetMixin, generics.DestroyAPIView):
+class TagDestroyAPIView(
+    UserQuerySetMixin, SuperuserSerializerMixin, generics.DestroyAPIView
+):
     queryset = Tag.objects.all()
     serializer_class = TagSerializer
+    lookup_field = "id"
 
 
 tag_detail_view = TagDetailAPIView.as_view()
