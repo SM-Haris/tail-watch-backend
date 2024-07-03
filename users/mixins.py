@@ -2,6 +2,8 @@ from urllib import request
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework.exceptions import AuthenticationFailed
 
+from tags.utils import ExtractUserFromRequest
+
 
 class UserObjectMixin:
 
@@ -19,5 +21,23 @@ class UserObjectMixin:
 
         if self.request.user.is_superuser:
             return self.request.user
-        
+
         return user
+
+
+class UserQuerySetMixin:
+    user_field = "name"
+
+    def get_queryset(self, *args, **kwargs):
+        user = ExtractUserFromRequest(self.request)
+
+        if not user:
+            return []
+
+        queryset = super().get_queryset(*args, **kwargs)
+
+        if user and user.is_superuser:
+            return queryset
+
+        self.request.user = user
+        return [user]

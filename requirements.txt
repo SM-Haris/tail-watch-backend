@@ -5,3 +5,6 @@ requests
 django-cors-headers
 rest_framework_simplejwt
 djangorestframework-simplejwt
+psycopg2
+qrcode
+django-filter
