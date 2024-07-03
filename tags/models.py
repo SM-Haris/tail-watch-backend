@@ -31,7 +31,7 @@ class Tag(models.Model):
     disease = models.CharField(max_length=100, null=True)
     recommended_medicine = models.CharField(max_length=200, null=True)
     qr_code = models.TextField(blank=True)
-    subscription_id = models.CharField(unique=True,max_length=200, null=False)
+    subscription_id = models.CharField(unique=True, max_length=200, null=False)
     delivery_address = models.CharField(max_length=200, null=False)
     subscription_choice = models.CharField(
         max_length=8,

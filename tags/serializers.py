@@ -1,12 +1,16 @@
 from rest_framework import serializers
-
+from rest_framework.validators import UniqueValidator
 from tags.validators import validate_subscription_choice
 from .models import Tag
 
 
 class TagSerializer(serializers.ModelSerializer):
-    subscription_choice = serializers.CharField(write_only=True, validators=[validate_subscription_choice])
-    subscription_id = serializers.CharField(write_only=True)
+    subscription_choice = serializers.CharField(
+        write_only=True, validators=[validate_subscription_choice]
+    )
+    subscription_id = serializers.CharField(
+        write_only=True, validators=[UniqueValidator(queryset=Tag.objects.all())]
+    )
     delivery_address = serializers.CharField(write_only=True)
 
     class Meta:

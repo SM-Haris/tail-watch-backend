@@ -12,7 +12,7 @@ class UserQuerySetMixin:
 
         queryset = super().get_queryset(*args, **kwargs)
 
-        if user.is_superuser:
+        if user and user.is_superuser:
             return queryset
 
         self.request.user = user
@@ -25,7 +25,7 @@ class SuperuserSerializerMixin:
     def get_serializer_class(self):
         user = ExtractUserFromRequest(self.request)
 
-        if user.is_superuser:
+        if user and user.is_superuser:
             return self.admin_serializer_class
 
         return self.serializer_class

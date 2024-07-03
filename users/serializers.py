@@ -40,6 +40,12 @@ class CustomUserCreationSerializer(serializers.ModelSerializer):
         return user
 
 
+class CustomUserListSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CustomUser
+        fields = ["id", "username", "phone_number", "email", "address"]
+
+
 class CustomUserUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomUser

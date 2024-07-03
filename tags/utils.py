@@ -26,7 +26,7 @@ def GenerateQrCodeImage(tag_id):
 
 
 def ExtractUserFromRequest(request):
-    if request.user.is_superuser:
+    if request.user and request.user.is_superuser:
         return request.user
 
     jwt_auth = JWTAuthentication()
