@@ -1,0 +1,37 @@
+INFO 2024-07-04 11:03:51,887 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:04:21,273 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-04 11:04:21,273 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-04 11:04:23,386 mixins User: test_user_1 | Method: POST | Path: /api/tags/bulk/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-04 11:04:23,386 basehttp "POST /api/tags/bulk/ HTTP/1.1" 201 355
+INFO 2024-07-04 11:07:08,990 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
+INFO 2024-07-04 11:07:09,872 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:07:11,417 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
+INFO 2024-07-04 11:07:12,276 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:07:16,708 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
+INFO 2024-07-04 11:07:17,562 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:07:30,396 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
+INFO 2024-07-04 11:07:31,262 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:07:34,892 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
+INFO 2024-07-04 11:07:35,757 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:07:41,482 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
+INFO 2024-07-04 11:07:42,360 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:07:43,904 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
+INFO 2024-07-04 11:07:44,780 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:13:48,652 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
+INFO 2024-07-04 11:13:49,532 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:14:20,486 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
+INFO 2024-07-04 11:14:21,377 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:14:44,978 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
+INFO 2024-07-04 11:14:45,854 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:14:52,655 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
+INFO 2024-07-04 11:14:53,515 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:14:55,050 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
+INFO 2024-07-04 11:14:55,914 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:15:02,686 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
+INFO 2024-07-04 11:15:03,584 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:18:08,347 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
+INFO 2024-07-04 11:18:09,363 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:22:14,015 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
+INFO 2024-07-04 11:22:14,895 autoreload Watching for file changes with StatReloader
+INFO 2024-07-04 11:22:19,571 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
+INFO 2024-07-04 11:22:20,446 autoreload Watching for file changes with StatReloader

@@ -1,6 +1,7 @@
 from rest_framework_simplejwt.views import TokenObtainPairView
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters
+from shared.mixins import AuditLogMixin
 from users.mixins import UserObjectMixin, UserQuerySetMixin
 from .serializers import (
     CustomUserListSerializer,
@@ -12,24 +13,24 @@ from rest_framework import generics
 from .models import CustomUser
 
 
-class LoginView(TokenObtainPairView):
+class LoginView(AuditLogMixin, TokenObtainPairView):
     queryset = CustomUser.objects.all()
     serializer_class = MyTokenObtainPairSerializer
     permission_classes = []
 
 
-class SignupView(generics.CreateAPIView):
+class SignupView(AuditLogMixin, generics.CreateAPIView):
     queryset = CustomUser.objects.all()
     serializer_class = CustomUserCreationSerializer
     permission_classes = []
 
 
-class UserUpdateAPIView(UserObjectMixin, generics.UpdateAPIView):
+class UserUpdateAPIView(AuditLogMixin, UserObjectMixin, generics.UpdateAPIView):
     queryset = CustomUser.objects.all()
     serializer_class = CustomUserUpdateSerializer
 
 
-class UserListAPIView(UserQuerySetMixin, generics.ListAPIView):
+class UserListAPIView(AuditLogMixin, UserQuerySetMixin, generics.ListAPIView):
     queryset = CustomUser.objects.all()
     serializer_class = CustomUserListSerializer
     filter_backends = [DjangoFilterBackend, filters.SearchFilter]

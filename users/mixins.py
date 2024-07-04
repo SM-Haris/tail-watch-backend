@@ -2,7 +2,7 @@ from urllib import request
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework.exceptions import AuthenticationFailed
 
-from tags.utils import ExtractUserFromRequest
+from shared.utils import ExtractUserFromRequest
 
 
 class UserObjectMixin:
