@@ -1,5 +1,5 @@
 from tags.serializers import TagAdminSerializer
-from tags.utils import ExtractUserFromRequest
+from shared.utils import ExtractUserFromRequest
 
 
 class UserQuerySetMixin:

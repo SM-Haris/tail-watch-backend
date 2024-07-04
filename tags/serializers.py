@@ -1,3 +1,4 @@
+from random import choices
 from rest_framework import serializers
 from rest_framework.validators import UniqueValidator
 from tags.validators import validate_subscription_choice
@@ -35,6 +36,7 @@ class TagAdminSerializer(serializers.ModelSerializer):
         model = Tag
         fields = [
             "pk",
+            "owner",
             "pet_name",
             "gender",
             "disease",

@@ -14,6 +14,7 @@ if auth_response.status_code == 200:
 
     # Fetch tags with the token
     tags_endpoint = "http://localhost:8000/api/tags/"
+    tags_bulk_endpoint = "http://localhost:8000/api/tags/bulk/"
     auth_users_endpoint = "http://localhost:8000/api/auth/users/"
 
     data = {
@@ -24,11 +25,34 @@ if auth_response.status_code == 200:
         "subscription_choice": "Monthly",
         "subscription_id": "8888",
         "delivery_address": "random",
-        "created_at": "2024-07-02T13:33:29.556352Z",
     }
 
+    bulk_data = [
+        {
+            "pet_name": "pet_10",
+            "gender": "Male",
+            "disease": "random",
+            "recommended_medicine": "random",
+            "subscription_choice": "Monthly",
+            "subscription_id": "12344",
+            "delivery_address": "random",
+        },
+        {
+            "pet_name": "pet_11",
+            "gender": "Female",
+            "disease": "random",
+            "recommended_medicine": "random",
+            "subscription_choice": "Monthly",
+            "subscription_id": "43124",
+            "delivery_address": "random",
+        },
+    ]
+
     # To create tags
-    get_response = requests.post(tags_endpoint, headers=headers, json=data)
+    # get_response = requests.post(tags_endpoint, headers=headers, json=data)
+
+    # To create bulk tags
+    get_response = requests.post(tags_bulk_endpoint, headers=headers, json=bulk_data)
 
     # To fetch user tags
     # get_response = requests.get(tags_endpoint, headers=headers)

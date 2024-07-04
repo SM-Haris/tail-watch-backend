@@ -1,21 +1,34 @@
 from rest_framework import generics
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters
+from shared.mixins import AuditLogMixin
 from tags.mixins import SuperuserSerializerMixin, UserQuerySetMixin
 from tags.models import Tag
 from tags.serializers import TagSerializer, TagUpdateSerializer
+from rest_framework_bulk.generics import BulkCreateAPIView
 
 
 class TagDetailAPIView(
-    UserQuerySetMixin, SuperuserSerializerMixin, generics.RetrieveAPIView
+    AuditLogMixin, UserQuerySetMixin, SuperuserSerializerMixin, generics.RetrieveAPIView
 ):
     queryset = Tag.objects.all()
     serializer_class = TagSerializer
     lookup_field = "id"
 
 
+class TagBulkCreateView(AuditLogMixin, SuperuserSerializerMixin, BulkCreateAPIView):
+    queryset = Tag.objects.all()
+    serializer_class = TagSerializer
+
+    def perform_bulk_create(self, serializer):
+        serializer.save(owner=self.request.user)
+
+
 class TagListCreateAPIView(
-    UserQuerySetMixin, SuperuserSerializerMixin, generics.ListCreateAPIView
+    AuditLogMixin,
+    UserQuerySetMixin,
+    SuperuserSerializerMixin,
+    generics.ListCreateAPIView,
 ):
     queryset = Tag.objects.all()
     serializer_class = TagSerializer
@@ -31,7 +44,7 @@ class TagListCreateAPIView(
 
 
 class TagUpdateAPIView(
-    UserQuerySetMixin, SuperuserSerializerMixin, generics.UpdateAPIView
+    AuditLogMixin, UserQuerySetMixin, SuperuserSerializerMixin, generics.UpdateAPIView
 ):
     queryset = Tag.objects.all()
     serializer_class = TagUpdateSerializer
@@ -39,7 +52,7 @@ class TagUpdateAPIView(
 
 
 class TagDestroyAPIView(
-    UserQuerySetMixin, SuperuserSerializerMixin, generics.DestroyAPIView
+    AuditLogMixin, UserQuerySetMixin, SuperuserSerializerMixin, generics.DestroyAPIView
 ):
     queryset = Tag.objects.all()
     serializer_class = TagSerializer
@@ -48,5 +61,6 @@ class TagDestroyAPIView(
 
 tag_detail_view = TagDetailAPIView.as_view()
 tag_list_create_view = TagListCreateAPIView.as_view()
+tag_bulk_create_view = TagBulkCreateView.as_view()
 tag_update_view = TagUpdateAPIView.as_view()
 tag_delete_view = TagDestroyAPIView.as_view()
