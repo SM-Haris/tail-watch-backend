@@ -12,6 +12,7 @@ def custom_exception_handler(exc, context):
         return response
 
     error_logger.error(f"Unhandled error: {exc}", exc_info=True)
+    print(f"Unhandled error: {exc}")
 
     custom_response_data = {"detail": "Something went wrong. Please try again later."}
 

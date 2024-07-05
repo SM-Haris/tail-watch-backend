@@ -7,6 +7,7 @@ class CustomUser(AbstractUser):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     address = models.CharField(max_length=255, blank=True, null=True)
     phone_number = models.CharField(max_length=15, blank=True, null=True)
+    email = models.EmailField(unique=True)
     groups = models.ManyToManyField(
         Group,
         related_name="customuser_set",
