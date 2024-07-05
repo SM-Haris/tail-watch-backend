@@ -1,5 +1,3 @@
-# tags/tests/test_views.py
-
 from django.urls import reverse
 from rest_framework.test import APITestCase
 from rest_framework import status
@@ -10,7 +8,7 @@ from rest_framework_simplejwt.tokens import RefreshToken
 class TagAPITestCase(APITestCase):
     def setUp(self):
         self.user = CustomUser.objects.create_user(
-            username='testuser', password='12345'
+            username='testuser', password='12345',email='test@gmail.com', address='test-address', phone_number='12345678',
         )
         self.tag = Tag.objects.create(
             owner=self.user,

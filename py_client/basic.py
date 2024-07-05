@@ -15,17 +15,16 @@ if auth_response.status_code == 200:
     # Fetch tags with the token
     tags_endpoint = "http://localhost:8000/api/tags/"
     tags_bulk_endpoint = "http://localhost:8000/api/tags/bulk/"
-    auth_users_endpoint = "http://localhost:8000/api/auth/users/"
-    auth_users_endpoint_query_search = "http://localhost:8000/api/auth/users/?search=test"
+    auth_users_endpoint = "http://localhost:8000/api/auth/me/"
     user_update_endpoint = "http://localhost:8000/api/auth/update/"
 
     data = {
-        "pet_name": "pet_3",
+        "pet_name": "pet_5",
         "gender": "Male",
         "disease": "random",
         "recommended_medicine": "random",
         "subscription_choice": "Monthly",
-        "subscription_id": "8888",
+        "subscription_id": "888889423",
         "delivery_address": "random",
     }
 
@@ -36,43 +35,44 @@ if auth_response.status_code == 200:
 
     bulk_data = [
         {
-            "pet_name": "pet_10",
+            "pet_name": "pet_13",
             "gender": "Male",
             "disease": "random",
             "recommended_medicine": "random",
             "subscription_choice": "Monthly",
-            "subscription_id": "12344",
+            "subscription_id": "1234534534",
             "delivery_address": "random",
         },
         {
-            "pet_name": "pet_11",
+            "pet_name": "pet_14",
             "gender": "Female",
             "disease": "random",
             "recommended_medicine": "random",
             "subscription_choice": "Monthly",
-            "subscription_id": "43124",
+            "subscription_id": "43124534534",
             "delivery_address": "random",
         },
     ]
 
     # To create tags
-    # get_response = requests.post(tags_endpoint, headers=headers, json=data)
+    create_tags_response = requests.post(tags_endpoint, headers=headers, json=data)
+    print(create_tags_response.json())
 
     # To create bulk tags
-    # get_response = requests.post(tags_bulk_endpoint, headers=headers, json=bulk_data)
+    bulk_tags_response = requests.post(tags_bulk_endpoint, headers=headers, json=bulk_data)
+    print(bulk_tags_response.json())
 
     # To fetch user tags
-    # get_response = requests.get(tags_endpoint, headers=headers)
+    my_tags_response = requests.get(tags_endpoint, headers=headers)
+    print(my_tags_response.json())
 
-    # To fetch users data will return all users for admin
-    # get_response = requests.get(auth_users_endpoint, headers=headers)
-
-    # To fetch users data will return all users for admin
-    # get_response = requests.get(auth_users_endpoint_query_search, headers=headers)
+    # To fetch users details
+    user_detail_response = requests.get(auth_users_endpoint, headers=headers)
+    print(user_detail_response.json())
 
     # To update user data
-    get_response = requests.patch(user_update_endpoint, headers=headers, json=user_update_data)
+    update_response = requests.patch(user_update_endpoint, headers=headers, json=user_update_data)
+    print(update_response.json())
 
-    print(get_response.json())
 else:
     print("Authentication failed")

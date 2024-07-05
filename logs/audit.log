@@ -567,3 +567,1091 @@ INFO 2024-07-05 11:25:44,693 autoreload D:\Projects\tail_watch_backend\users\ser
 INFO 2024-07-05 11:25:45,539 autoreload Watching for file changes with StatReloader
 INFO 2024-07-05 11:26:06,952 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
 INFO 2024-07-05 11:26:07,803 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 16:17:06,449 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 16:17:06,926 mixins User: testuser | Method: DELETE | Path: /api/tags/a114cc62-94f4-4f7d-b3b6-434f3f259acb/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 16:17:07,377 mixins User: testuser | Method: GET | Path: /api/tags/9c115d4a-5b8f-47bd-9336-a951cb1fd675/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:17:07,831 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:17:08,304 mixins User: testuser | Method: PUT | Path: /api/tags/8ceca793-7662-481f-b7d6-81fa7df48d0c/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:17:10,811 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:17:11,685 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 16:17:11,685 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 16:17:12,113 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:17:12,113 log Bad Request: /api/auth/login/
+INFO 2024-07-05 16:17:12,157 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 16:17:12,158 log Internal Server Error: /api/auth/signup/
+INFO 2024-07-05 16:17:12,165 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 16:17:12,166 log Internal Server Error: /api/auth/signup/
+INFO 2024-07-05 16:17:13,036 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:17:13,901 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:17:13,901 log Bad Request: /api/auth/update/
+INFO 2024-07-05 16:20:41,021 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 16:20:41,474 mixins User: testuser | Method: DELETE | Path: /api/tags/ee071d36-71c9-4467-90e3-ecdfd39d9a02/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 16:20:41,927 mixins User: testuser | Method: GET | Path: /api/tags/bb71011c-28ee-4f93-8142-282909201798/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:20:42,385 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:20:42,859 mixins User: testuser | Method: PUT | Path: /api/tags/a035dcba-0274-4d6a-b49c-2c43a5c874a5/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:20:45,041 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:20:45,901 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 16:20:45,901 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 16:20:46,332 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:20:46,332 log Bad Request: /api/auth/login/
+INFO 2024-07-05 16:20:46,779 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 16:20:46,813 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 16:20:46,813 log Internal Server Error: /api/auth/signup/
+INFO 2024-07-05 16:20:46,983 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:20:46,983 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 16:20:47,843 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:20:48,701 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:20:48,701 log Bad Request: /api/auth/update/
+INFO 2024-07-05 16:29:13,551 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 16:29:14,008 mixins User: testuser | Method: DELETE | Path: /api/tags/be1fa4c0-3170-49c2-8036-1fb440048ac4/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 16:29:14,459 mixins User: testuser | Method: GET | Path: /api/tags/070f6741-f095-4272-9348-eb5319175d95/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:29:14,917 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:29:15,411 mixins User: testuser | Method: PUT | Path: /api/tags/df29a973-fe4f-476c-83e5-66d95dfa77c0/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:29:17,670 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:29:18,542 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 16:29:18,543 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 16:29:19,007 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:29:19,007 log Bad Request: /api/auth/login/
+INFO 2024-07-05 16:29:19,455 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 16:29:19,482 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 16:29:19,482 log Internal Server Error: /api/auth/signup/
+INFO 2024-07-05 16:29:19,662 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:29:19,663 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 16:29:20,576 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:29:21,443 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:29:21,443 log Bad Request: /api/auth/update/
+INFO 2024-07-05 16:29:39,057 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:29:39,925 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 16:29:39,926 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 16:29:40,375 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:29:40,375 log Bad Request: /api/auth/login/
+INFO 2024-07-05 16:29:40,818 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 16:29:40,827 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 16:29:40,827 log Internal Server Error: /api/auth/signup/
+INFO 2024-07-05 16:29:40,995 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:29:40,996 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 16:29:41,862 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:29:42,868 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:29:42,869 log Bad Request: /api/auth/update/
+INFO 2024-07-05 16:32:42,399 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:32:43,291 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 16:32:43,291 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 16:32:43,723 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:32:43,724 log Bad Request: /api/auth/login/
+INFO 2024-07-05 16:32:44,169 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 16:32:44,177 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 16:32:44,177 log Internal Server Error: /api/auth/signup/
+INFO 2024-07-05 16:32:44,351 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:32:44,352 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 16:32:45,218 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:32:46,092 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:32:46,093 log Bad Request: /api/auth/update/
+INFO 2024-07-05 16:34:03,576 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:34:04,436 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 16:34:04,436 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 16:34:04,874 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:34:04,874 log Bad Request: /api/auth/login/
+INFO 2024-07-05 16:34:05,316 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 16:34:05,839 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 16:34:05,839 log Internal Server Error: /api/auth/signup/
+INFO 2024-07-05 16:34:06,011 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:34:06,012 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 16:34:06,872 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:34:07,745 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:34:07,746 log Bad Request: /api/auth/update/
+INFO 2024-07-05 16:37:31,990 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:37:32,853 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 16:37:32,853 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 16:37:33,289 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:37:33,289 log Bad Request: /api/auth/login/
+INFO 2024-07-05 16:37:33,735 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 16:37:33,741 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:37:33,741 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 16:37:33,745 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:37:33,745 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 16:37:34,609 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:37:35,475 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:37:35,476 log Bad Request: /api/auth/update/
+INFO 2024-07-05 16:50:32,536 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 16:50:33,403 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 16:50:33,403 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 16:50:33,835 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:50:33,835 log Bad Request: /api/auth/login/
+INFO 2024-07-05 16:50:34,304 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 16:50:34,309 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:50:34,310 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 16:50:34,316 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 16:50:34,316 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 17:22:57,741 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:23:56,042 autoreload D:\Projects\tail_watch_backend\admin\apps.py changed, reloading.
+INFO 2024-07-05 17:23:56,411 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:23:58,691 autoreload D:\Projects\tail_watch_backend\admin\apps.py changed, reloading.
+INFO 2024-07-05 17:23:59,064 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:24:00,300 autoreload D:\Projects\tail_watch_backend\admin\apps.py changed, reloading.
+INFO 2024-07-05 17:24:00,670 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:24:09,033 autoreload D:\Projects\tail_watch_backend\admin\apps.py changed, reloading.
+INFO 2024-07-05 17:24:09,398 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:24:13,694 autoreload D:\Projects\tail_watch_backend\admin\apps.py changed, reloading.
+INFO 2024-07-05 17:24:14,062 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:24:45,864 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
+INFO 2024-07-05 17:24:46,801 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:25:05,255 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:25:56,423 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:27:11,527 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:27:12,386 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:27:27,586 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:27:28,462 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:27:29,987 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:27:30,851 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:27:32,366 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:27:33,234 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:27:46,059 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:27:46,917 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:28:13,369 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:28:14,226 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:28:16,559 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:28:17,419 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:28:18,702 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:28:19,562 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:28:39,748 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:28:40,716 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:28:44,122 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:28:44,973 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:28:46,255 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:28:47,176 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:28:58,952 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:28:59,835 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:07,407 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:08,296 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:12,721 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:13,587 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:15,915 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:16,809 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:20,215 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:21,084 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:29,699 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:30,585 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:33,162 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:34,078 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:36,655 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:37,537 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:40,137 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:41,008 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:44,619 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:45,491 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:46,784 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:47,670 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:49,194 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:50,051 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:53,672 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:54,534 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:29:58,145 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:29:59,001 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:30:00,535 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:30:01,401 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:30:02,924 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:30:03,796 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:30:12,695 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:30:13,554 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:30:16,930 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 17:30:17,802 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:33:11,133 autoreload D:\Projects\tail_watch_backend\admin_api\views.py changed, reloading.
+INFO 2024-07-05 17:33:12,004 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:33:14,328 autoreload D:\Projects\tail_watch_backend\admin_api\views.py changed, reloading.
+INFO 2024-07-05 17:33:15,183 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:33:16,444 autoreload D:\Projects\tail_watch_backend\admin_api\views.py changed, reloading.
+INFO 2024-07-05 17:33:17,284 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:33:21,722 autoreload D:\Projects\tail_watch_backend\admin_api\views.py changed, reloading.
+INFO 2024-07-05 17:33:22,585 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:37:09,531 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 17:37:09,532 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 17:37:11,842 log Internal Server Error: /api/tags/
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\shared\mixins.py", line 17, in handle_exception
+    user = self.request.user if self.request.user.is_authenticated else "Anonymous"
+                                ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+ERROR 2024-07-05 17:37:11,846 basehttp "POST /api/tags/ HTTP/1.1" 500 197165
+ERROR 2024-07-05 17:37:13,934 log Internal Server Error: /api/tags/bulk/
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\shared\mixins.py", line 17, in handle_exception
+    user = self.request.user if self.request.user.is_authenticated else "Anonymous"
+                                ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+ERROR 2024-07-05 17:37:13,937 basehttp "POST /api/tags/bulk/ HTTP/1.1" 500 197301
+ERROR 2024-07-05 17:37:16,024 log Internal Server Error: /api/tags/
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\shared\mixins.py", line 17, in handle_exception
+    user = self.request.user if self.request.user.is_authenticated else "Anonymous"
+                                ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+ERROR 2024-07-05 17:37:16,027 basehttp "GET /api/tags/ HTTP/1.1" 500 197128
+WARNING 2024-07-05 17:37:18,079 log Not Found: /api/auth/users/
+WARNING 2024-07-05 17:37:18,079 basehttp "GET /api/auth/users/ HTTP/1.1" 404 3645
+WARNING 2024-07-05 17:37:20,105 log Not Found: /api/auth/users/
+WARNING 2024-07-05 17:37:20,105 basehttp "GET /api/auth/users/?search=test HTTP/1.1" 404 3657
+WARNING 2024-07-05 17:37:22,140 log Not Found: /api/auth/update/
+WARNING 2024-07-05 17:37:22,140 basehttp "PATCH /api/auth/update/ HTTP/1.1" 404 3650
+INFO 2024-07-05 17:37:58,465 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:37:59,341 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:38:02,708 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:38:03,579 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:38:13,242 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:38:14,205 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:38:16,624 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:38:17,500 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:42:41,704 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:42:47,352 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 17:42:47,353 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 17:42:49,438 log Internal Server Error: /api/tags/
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\shared\mixins.py", line 17, in handle_exception
+    user = self.request.user if self.request.user.is_authenticated else "Anonymous"
+                                ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+ERROR 2024-07-05 17:42:49,440 basehttp "POST /api/tags/ HTTP/1.1" 500 124733
+ERROR 2024-07-05 17:42:51,522 log Internal Server Error: /api/tags/bulk/
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\shared\mixins.py", line 17, in handle_exception
+    user = self.request.user if self.request.user.is_authenticated else "Anonymous"
+                                ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+ERROR 2024-07-05 17:42:51,523 basehttp "POST /api/tags/bulk/ HTTP/1.1" 500 124819
+ERROR 2024-07-05 17:42:53,611 log Internal Server Error: /api/tags/
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\shared\mixins.py", line 17, in handle_exception
+    user = self.request.user if self.request.user.is_authenticated else "Anonymous"
+                                ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+ERROR 2024-07-05 17:42:53,612 basehttp "GET /api/tags/ HTTP/1.1" 500 124706
+WARNING 2024-07-05 17:42:55,649 log Not Found: /api/auth/users/
+WARNING 2024-07-05 17:42:55,650 basehttp "GET /api/auth/users/ HTTP/1.1" 404 3645
+WARNING 2024-07-05 17:42:57,703 log Not Found: /api/auth/users/
+WARNING 2024-07-05 17:42:57,703 basehttp "GET /api/auth/users/?search=test HTTP/1.1" 404 3657
+WARNING 2024-07-05 17:42:59,725 log Not Found: /api/auth/update/
+WARNING 2024-07-05 17:42:59,726 basehttp "PATCH /api/auth/update/ HTTP/1.1" 404 3650
+INFO 2024-07-05 17:44:22,486 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:44:23,360 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:44:24,861 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:44:25,733 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:44:28,318 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:44:29,184 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:44:30,452 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:44:31,306 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:44:47,563 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:44:48,434 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:44:50,749 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:44:51,587 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:44:57,033 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:44:57,949 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:45:01,311 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:45:02,172 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:45:07,642 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:45:08,493 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:45:16,333 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:45:17,252 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:45:26,143 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:45:27,005 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:45:30,382 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:45:31,232 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:45:33,787 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:45:34,668 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:45:40,394 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:45:41,260 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:45:56,425 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:45:57,300 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:45:58,803 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:45:59,687 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:46:07,513 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:46:08,393 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:46:14,158 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:46:15,029 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:46:28,120 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:46:29,012 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:46:31,599 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:46:32,517 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:46:34,847 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:46:35,707 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:46:36,962 autoreload D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py changed, reloading.
+INFO 2024-07-05 17:46:37,816 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:53:02,048 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
+INFO 2024-07-05 17:53:02,942 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:53:10,743 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 17:53:10,744 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 17:53:12,933 mixins User: test_user_1 | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 17:53:12,934 basehttp "POST /api/tags/ HTTP/1.1" 201 174
+INFO 2024-07-05 17:53:15,042 mixins User: test_user_1 | Method: POST | Path: /api/tags/bulk/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 17:53:15,044 basehttp "POST /api/tags/bulk/ HTTP/1.1" 201 355
+INFO 2024-07-05 17:53:17,213 mixins User: test_user_1 | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 17:53:17,214 basehttp "GET /api/tags/ HTTP/1.1" 200 1461
+WARNING 2024-07-05 17:53:19,246 log Not Found: /api/auth/users/
+WARNING 2024-07-05 17:53:19,246 basehttp "GET /api/auth/users/ HTTP/1.1" 404 3645
+WARNING 2024-07-05 17:53:21,282 log Not Found: /api/auth/users/
+WARNING 2024-07-05 17:53:21,283 basehttp "GET /api/auth/users/?search=test HTTP/1.1" 404 3657
+WARNING 2024-07-05 17:53:23,312 log Not Found: /api/auth/update/
+WARNING 2024-07-05 17:53:23,313 basehttp "PATCH /api/auth/update/ HTTP/1.1" 404 3650
+INFO 2024-07-05 17:57:16,479 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 17:57:16,480 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 17:57:18,569 mixins User: test_user_1 | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 17:57:18,570 basehttp "POST /api/tags/ HTTP/1.1" 201 174
+INFO 2024-07-05 17:57:20,670 mixins User: test_user_1 | Method: POST | Path: /api/tags/bulk/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 17:57:20,672 basehttp "POST /api/tags/bulk/ HTTP/1.1" 201 355
+INFO 2024-07-05 17:57:22,725 mixins User: test_user_1 | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 17:57:22,726 basehttp "GET /api/tags/ HTTP/1.1" 200 580
+WARNING 2024-07-05 17:57:24,755 log Not Found: /api/auth/users/
+WARNING 2024-07-05 17:57:24,755 basehttp "GET /api/auth/users/ HTTP/1.1" 404 3645
+INFO 2024-07-05 17:58:18,997 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 17:58:18,998 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 17:58:21,076 mixins User: test_user_1 | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 17:58:21,077 basehttp "POST /api/tags/ HTTP/1.1" 201 174
+INFO 2024-07-05 17:58:23,271 mixins User: test_user_1 | Method: POST | Path: /api/tags/bulk/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 17:58:23,272 basehttp "POST /api/tags/bulk/ HTTP/1.1" 201 355
+INFO 2024-07-05 17:58:25,328 mixins User: test_user_1 | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 17:58:25,329 basehttp "GET /api/tags/ HTTP/1.1" 200 580
+INFO 2024-07-05 17:58:27,392 mixins User: test_user_1 | Method: GET | Path: /api/auth/me/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 17:58:27,393 basehttp "GET /api/auth/me/ HTTP/1.1" 200 341
+WARNING 2024-07-05 17:58:29,419 log Not Found: /api/auth/update/
+WARNING 2024-07-05 17:58:29,420 basehttp "PATCH /api/auth/update/ HTTP/1.1" 404 3650
+INFO 2024-07-05 17:59:21,741 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 17:59:22,633 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:59:26,266 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 17:59:27,131 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:59:28,656 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 17:59:29,520 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:59:33,128 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 17:59:33,978 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:59:46,005 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 17:59:46,867 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 17:59:51,557 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 17:59:52,417 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:00:08,571 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:00:09,430 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:00:16,170 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:00:17,025 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:01:03,894 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:01:04,750 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:01:17,587 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-05 18:01:18,453 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:01:23,961 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-05 18:01:24,828 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:01:43,356 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:01:43,357 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 18:01:45,448 mixins User: test_user_1 | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 18:01:45,449 basehttp "POST /api/tags/ HTTP/1.1" 201 174
+INFO 2024-07-05 18:01:47,652 mixins User: test_user_1 | Method: POST | Path: /api/tags/bulk/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 18:01:47,653 basehttp "POST /api/tags/bulk/ HTTP/1.1" 201 355
+INFO 2024-07-05 18:01:49,707 mixins User: test_user_1 | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:01:49,707 basehttp "GET /api/tags/ HTTP/1.1" 200 580
+INFO 2024-07-05 18:01:51,877 mixins User: test_user_1 | Method: GET | Path: /api/auth/me/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 18:01:51,877 log Internal Server Error: /api/auth/me/
+ERROR 2024-07-05 18:01:51,877 basehttp "GET /api/auth/me/ HTTP/1.1" 500 58
+WARNING 2024-07-05 18:01:53,914 log Not Found: /api/auth/update/
+WARNING 2024-07-05 18:01:53,914 basehttp "PATCH /api/auth/update/ HTTP/1.1" 404 3650
+INFO 2024-07-05 18:02:40,799 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:02:41,677 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:02:46,129 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:02:46,986 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:02:55,631 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:02:56,515 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:03:26,520 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:03:26,521 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 18:03:28,606 mixins User: test_user_1 | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 18:03:28,607 basehttp "POST /api/tags/ HTTP/1.1" 201 174
+INFO 2024-07-05 18:03:30,718 mixins User: test_user_1 | Method: POST | Path: /api/tags/bulk/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 18:03:30,719 basehttp "POST /api/tags/bulk/ HTTP/1.1" 201 355
+INFO 2024-07-05 18:03:32,785 mixins User: test_user_1 | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:03:32,786 basehttp "GET /api/tags/ HTTP/1.1" 200 580
+INFO 2024-07-05 18:03:34,856 mixins User: test_user_1 | Method: GET | Path: /api/auth/me/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:03:34,856 basehttp "GET /api/auth/me/ HTTP/1.1" 200 198
+WARNING 2024-07-05 18:03:36,892 log Not Found: /api/auth/update/
+WARNING 2024-07-05 18:03:36,892 basehttp "PATCH /api/auth/update/ HTTP/1.1" 404 3650
+INFO 2024-07-05 18:04:25,990 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:04:26,869 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:04:28,369 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:04:29,313 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:04:32,913 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:04:33,775 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:04:35,285 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:04:36,164 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:04:42,945 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-05 18:04:43,821 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:05:01,371 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:05:01,372 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 18:05:03,473 mixins User: test_user_1 | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 18:05:03,474 basehttp "POST /api/tags/ HTTP/1.1" 201 174
+INFO 2024-07-05 18:05:05,567 mixins User: test_user_1 | Method: POST | Path: /api/tags/bulk/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 18:05:05,569 basehttp "POST /api/tags/bulk/ HTTP/1.1" 201 355
+INFO 2024-07-05 18:05:07,637 mixins User: test_user_1 | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:05:07,638 basehttp "GET /api/tags/ HTTP/1.1" 200 580
+INFO 2024-07-05 18:05:09,690 mixins User: test_user_1 | Method: GET | Path: /api/auth/me/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:05:09,691 basehttp "GET /api/auth/me/ HTTP/1.1" 200 198
+INFO 2024-07-05 18:05:11,747 mixins User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 18:05:11,747 log Internal Server Error: /api/auth/update/
+ERROR 2024-07-05 18:05:11,747 basehttp "PATCH /api/auth/update/ HTTP/1.1" 500 58
+INFO 2024-07-05 18:05:47,155 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:05:48,023 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:05:51,631 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:05:52,488 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:06:11,097 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:06:11,098 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 18:06:13,168 mixins User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 18:06:13,168 log Internal Server Error: /api/auth/update/
+ERROR 2024-07-05 18:06:13,169 basehttp "PATCH /api/auth/update/ HTTP/1.1" 500 58
+INFO 2024-07-05 18:06:37,682 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:06:38,565 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:06:40,086 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:06:40,953 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:06:47,122 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:06:47,123 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 18:06:49,202 mixins User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 18:06:49,203 log Internal Server Error: /api/auth/update/
+ERROR 2024-07-05 18:06:49,203 basehttp "PATCH /api/auth/update/ HTTP/1.1" 500 58
+INFO 2024-07-05 18:07:37,868 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:07:38,736 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:07:49,740 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 18:07:50,669 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:07:53,273 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 18:07:54,114 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:07:57,725 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 18:07:58,577 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:08:11,678 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 18:08:12,554 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:08:19,357 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:08:20,244 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:08:21,721 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:08:22,580 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:08:27,056 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:08:27,900 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:08:30,412 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:08:31,258 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:08:38,867 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:08:39,772 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:08:42,340 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 18:08:43,192 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:08:48,908 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 18:08:49,763 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:08:52,334 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 18:08:53,193 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:08:54,475 autoreload D:\Projects\tail_watch_backend\users\mixins.py changed, reloading.
+INFO 2024-07-05 18:08:55,334 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:09:09,469 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:09:10,338 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:09:13,741 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-05 18:09:14,584 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:09:20,837 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:09:20,838 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 18:09:23,320 mixins User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:09:23,321 basehttp "PATCH /api/auth/update/ HTTP/1.1" 200 52
+INFO 2024-07-05 18:10:37,321 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:10:38,188 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:10:45,051 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:10:45,902 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:11:35,770 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:11:36,625 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:11:42,347 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:11:43,236 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:12:06,824 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:12:07,679 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:12:32,316 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:12:33,172 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:12:34,701 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:12:35,579 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:12:48,650 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:12:49,514 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:13:05,507 autoreload D:\Projects\tail_watch_backend\tags\views.py changed, reloading.
+INFO 2024-07-05 18:13:06,363 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:13:08,878 autoreload D:\Projects\tail_watch_backend\tags\views.py changed, reloading.
+INFO 2024-07-05 18:13:09,741 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:13:13,293 autoreload D:\Projects\tail_watch_backend\tags\views.py changed, reloading.
+INFO 2024-07-05 18:13:14,169 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:13:21,904 autoreload D:\Projects\tail_watch_backend\tags\views.py changed, reloading.
+INFO 2024-07-05 18:13:22,777 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:13:27,394 autoreload D:\Projects\tail_watch_backend\tags\views.py changed, reloading.
+INFO 2024-07-05 18:13:28,247 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:13:50,685 autoreload D:\Projects\tail_watch_backend\tags\views.py changed, reloading.
+INFO 2024-07-05 18:13:51,543 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:14:04,364 autoreload D:\Projects\tail_watch_backend\tags\views.py changed, reloading.
+INFO 2024-07-05 18:14:05,228 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:14:08,796 autoreload D:\Projects\tail_watch_backend\tags\views.py changed, reloading.
+INFO 2024-07-05 18:14:09,636 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:14:10,916 autoreload D:\Projects\tail_watch_backend\tags\views.py changed, reloading.
+INFO 2024-07-05 18:14:11,755 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:14:24,756 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:14:25,612 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:14:29,239 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:14:30,109 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:14:35,849 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:14:36,706 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:14:45,582 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:14:46,439 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:15:19,528 autoreload D:\Projects\tail_watch_backend\tags\serializers.py changed, reloading.
+INFO 2024-07-05 18:15:20,402 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:15:26,964 autoreload D:\Projects\tail_watch_backend\admin_api\serializers.py changed, reloading.
+INFO 2024-07-05 18:15:27,825 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:15:29,113 autoreload D:\Projects\tail_watch_backend\admin_api\serializers.py changed, reloading.
+INFO 2024-07-05 18:15:29,962 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:15:35,631 autoreload D:\Projects\tail_watch_backend\admin_api\serializers.py changed, reloading.
+INFO 2024-07-05 18:15:36,489 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:15:43,037 autoreload D:\Projects\tail_watch_backend\admin_api\serializers.py changed, reloading.
+INFO 2024-07-05 18:15:43,925 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:16:18,794 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:16:19,661 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:16:26,443 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:16:27,325 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:16:30,916 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:16:31,805 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:16:35,360 autoreload D:\Projects\tail_watch_backend\tags\mixins.py changed, reloading.
+INFO 2024-07-05 18:16:36,230 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:16:43,986 autoreload D:\Projects\tail_watch_backend\admin_api\serializers.py changed, reloading.
+INFO 2024-07-05 18:16:44,854 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:17:51,885 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2024-07-05 18:17:52,204 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-07-05 18:17:52,413 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2024-07-05 18:17:52,574 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-07-05 18:17:52,583 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2024-07-05 18:17:52,601 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-07-05 18:17:52,602 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-07-05 18:17:52,607 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2024-07-05 18:17:52,612 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-07-05 18:17:52,624 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+WARNING 2024-07-05 18:17:52,658 log Not Found: /favicon.ico
+WARNING 2024-07-05 18:17:52,658 basehttp "GET /favicon.ico HTTP/1.1" 404 2442
+INFO 2024-07-05 18:17:56,042 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-07-05 18:17:56,090 basehttp "GET /admin/ HTTP/1.1" 200 7112
+INFO 2024-07-05 18:17:56,114 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-07-05 18:17:56,125 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-07-05 18:17:56,126 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-07-05 18:17:59,035 basehttp "GET /admin/tags/tag/ HTTP/1.1" 200 10062
+INFO 2024-07-05 18:17:59,062 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2024-07-05 18:17:59,071 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-07-05 18:17:59,076 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2024-07-05 18:17:59,077 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2024-07-05 18:17:59,084 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-07-05 18:17:59,098 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-07-05 18:17:59,105 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-07-05 18:17:59,108 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2024-07-05 18:17:59,140 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2024-07-05 18:17:59,151 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-07-05 18:17:59,156 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-07-05 18:17:59,171 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-07-05 18:18:01,854 basehttp "GET /admin/users/customuser/ HTTP/1.1" 200 9707
+INFO 2024-07-05 18:18:01,873 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-07-05 18:18:08,321 basehttp "POST /admin/users/customuser/ HTTP/1.1" 302 0
+INFO 2024-07-05 18:18:08,332 basehttp "GET /admin/users/customuser/ HTTP/1.1" 200 9900
+INFO 2024-07-05 18:18:08,351 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-07-05 18:18:08,375 basehttp "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+WARNING 2024-07-05 18:18:27,983 log Not Found: /
+WARNING 2024-07-05 18:18:27,984 basehttp "GET / HTTP/1.1" 404 2391
+WARNING 2024-07-05 18:18:44,410 log Not Found: /api/admin
+WARNING 2024-07-05 18:18:44,411 basehttp "GET /api/admin HTTP/1.1" 404 2436
+INFO 2024-07-05 18:18:52,598 basehttp "GET /api/admin/users HTTP/1.1" 301 0
+INFO 2024-07-05 18:18:52,637 mixins User: admin | Method: GET | Path: /api/admin/users/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:18:52,710 basehttp "GET /api/admin/users/ HTTP/1.1" 200 10916
+INFO 2024-07-05 18:18:52,744 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-07-05 18:18:52,753 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-07-05 18:18:52,754 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-07-05 18:18:52,755 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-07-05 18:18:52,763 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-07-05 18:18:52,766 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-07-05 18:18:52,773 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-07-05 18:18:52,775 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-07-05 18:18:52,786 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-07-05 18:18:52,799 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-07-05 18:18:52,801 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-07-05 18:18:52,801 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-07-05 18:19:15,011 mixins User: admin | Method: GET | Path: /api/admin/users/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:19:15,016 basehttp "GET /api/admin/users/?search=test HTTP/1.1" 200 11008
+INFO 2024-07-05 18:19:28,107 mixins User: admin | Method: GET | Path: /api/admin/users/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:19:28,113 basehttp "GET /api/admin/users/?search=test HTTP/1.1" 200 11008
+INFO 2024-07-05 18:19:57,209 autoreload D:\Projects\tail_watch_backend\admin_api\urls.py changed, reloading.
+INFO 2024-07-05 18:19:58,096 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:20:11,710 mixins User: admin | Method: GET | Path: /api/admin/users/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:20:11,732 basehttp "GET /api/admin/users/?search=test HTTP/1.1" 200 11008
+INFO 2024-07-05 18:20:19,587 mixins User: admin | Method: GET | Path: /api/admin/users/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:20:19,593 basehttp "GET /api/admin/users/?search=test_user_1 HTTP/1.1" 200 11057
+INFO 2024-07-05 18:20:28,170 mixins User: admin | Method: GET | Path: /api/admin/users/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:20:28,176 basehttp "GET /api/admin/users/?username=test_user_1 HTTP/1.1" 200 11071
+INFO 2024-07-05 18:20:45,129 autoreload D:\Projects\tail_watch_backend\admin_api\urls.py changed, reloading.
+INFO 2024-07-05 18:20:46,012 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 18:20:53,514 mixins User: admin | Method: GET | Path: /api/admin/users/list/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:20:53,555 basehttp "GET /api/admin/users/list/?username=test_user_1 HTTP/1.1" 200 7821
+INFO 2024-07-05 18:20:53,657 basehttp "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+INFO 2024-07-05 18:21:03,174 mixins User: admin | Method: GET | Path: /api/admin/users/list/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:21:03,178 basehttp "GET /api/admin/users/list/?search=test_user_1 HTTP/1.1" 200 7802
+INFO 2024-07-05 18:21:09,061 mixins User: admin | Method: GET | Path: /api/admin/users/list/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:21:09,064 basehttp "GET /api/admin/users/list/?search=test_user_2 HTTP/1.1" 200 7291
+INFO 2024-07-05 18:24:03,507 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 18:24:03,956 mixins User: testuser | Method: DELETE | Path: /api/tags/cff02a74-195c-4c84-98a2-a4b1dbf352fe/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 18:24:04,408 mixins User: testuser | Method: GET | Path: /api/tags/922e81b6-8ab9-4563-aa7e-2be2e1d2f2bc/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:24:04,883 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:24:05,356 mixins User: testuser | Method: PUT | Path: /api/tags/20e4370b-7195-4468-bb9f-b0399dfb6b8d/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:24:07,532 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:24:08,387 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 18:24:08,387 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 18:24:08,817 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 18:24:08,818 log Bad Request: /api/auth/login/
+INFO 2024-07-05 18:24:09,251 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 18:24:09,257 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 18:24:09,257 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 18:24:09,261 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 18:24:09,262 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 18:24:10,119 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 18:24:10,974 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 18:24:10,975 log Bad Request: /api/auth/update/
+INFO 2024-07-05 18:24:11,825 mixins User: admin | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1

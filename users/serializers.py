@@ -24,19 +24,20 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
 
 class CustomUserCreationSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True, validators=[validate_password])
-    subscription_id = serializers.EmailField(
-        write_only=True, validators=[UniqueValidator(queryset=CustomUser.objects.all())]
+    email = serializers.EmailField(
+        validators=[UniqueValidator(queryset=CustomUser.objects.all())]
     )
+
     class Meta:
         model = CustomUser
         fields = ["id", "username", "phone_number", "email", "password", "address"]
 
     def create(self, validated_data):
         user = CustomUser(
-            username=validated_data["username"],
-            phone_number=validated_data["phone_number"],
-            email=validated_data["email"],
-            address=validated_data["address"],
+            username=validated_data.get("username"),
+            phone_number=validated_data.get("phone_number"),
+            email=validated_data.get("email"),
+            address=validated_data.get("address"),
         )
         user.set_password(validated_data["password"])
         user.save()
@@ -50,21 +51,24 @@ class CustomUserListSerializer(serializers.ModelSerializer):
 
 
 class CustomUserUpdateSerializer(serializers.ModelSerializer):
-    password = serializers.CharField(write_only=True, validators=[validate_password], required=False)
+    password = serializers.CharField(
+        write_only=True, validators=[validate_password], required=False
+    )
 
     class Meta:
         model = CustomUser
         fields = ["phone_number", "address", "password"]
 
     def update(self, instance, validated_data):
-        password = validated_data.pop('password', None)
+        password = validated_data.pop("password", None)
 
-        instance.phone_number = validated_data.get('phone_number', instance.phone_number)
-        instance.address = validated_data.get('address', instance.address)
+        instance.phone_number = validated_data.get(
+            "phone_number", instance.phone_number
+        )
+        instance.address = validated_data.get("address", instance.address)
 
         if password:
-            instance.set_password(password) 
+            instance.set_password(password)
         instance.save()
-        
-        return instance
 
+        return instance

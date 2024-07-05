@@ -29,26 +29,6 @@ class TagSerializer(serializers.ModelSerializer):
         ]
 
 
-class TagAdminSerializer(serializers.ModelSerializer):
-    qr_code = serializers.CharField(read_only=True)
-
-    class Meta:
-        model = Tag
-        fields = [
-            "pk",
-            "owner",
-            "pet_name",
-            "gender",
-            "disease",
-            "recommended_medicine",
-            "qr_code",
-            "subscription_choice",
-            "subscription_id",
-            "delivery_address",
-            "created_at",
-        ]
-
-
 class TagUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tag
