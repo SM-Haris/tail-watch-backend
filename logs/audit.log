@@ -1,37 +1,569 @@
-INFO 2024-07-04 11:03:51,887 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:04:21,273 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
-INFO 2024-07-04 11:04:21,273 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
-INFO 2024-07-04 11:04:23,386 mixins User: test_user_1 | Method: POST | Path: /api/tags/bulk/ | Status: 201 | IP: 127.0.0.1
-INFO 2024-07-04 11:04:23,386 basehttp "POST /api/tags/bulk/ HTTP/1.1" 201 355
-INFO 2024-07-04 11:07:08,990 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
-INFO 2024-07-04 11:07:09,872 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:07:11,417 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
-INFO 2024-07-04 11:07:12,276 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:07:16,708 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
-INFO 2024-07-04 11:07:17,562 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:07:30,396 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
-INFO 2024-07-04 11:07:31,262 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:07:34,892 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
-INFO 2024-07-04 11:07:35,757 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:07:41,482 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
-INFO 2024-07-04 11:07:42,360 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:07:43,904 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
-INFO 2024-07-04 11:07:44,780 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:13:48,652 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
-INFO 2024-07-04 11:13:49,532 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:14:20,486 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
-INFO 2024-07-04 11:14:21,377 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:14:44,978 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
-INFO 2024-07-04 11:14:45,854 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:14:52,655 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
-INFO 2024-07-04 11:14:53,515 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:14:55,050 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
-INFO 2024-07-04 11:14:55,914 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:15:02,686 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
-INFO 2024-07-04 11:15:03,584 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:18:08,347 autoreload D:\Projects\tail_watch_backend\shared\mixins.py changed, reloading.
-INFO 2024-07-04 11:18:09,363 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:22:14,015 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
-INFO 2024-07-04 11:22:14,895 autoreload Watching for file changes with StatReloader
-INFO 2024-07-04 11:22:19,571 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
-INFO 2024-07-04 11:22:20,446 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 09:26:41,356 mixins User: testuser | Method: DELETE | Path: /api/tags/73745b96-c4a1-4c29-aaef-af0be81a5fa2/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 09:26:41,866 mixins User: testuser | Method: GET | Path: /api/tags/be6b6bbb-d040-4a4e-b462-e0e71e0669bf/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:26:42,843 mixins User: testuser | Method: PUT | Path: /api/tags/600d856c-3d9d-4f80-8b1d-d0d1e7094f4e/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:26:43,926 mixins User: testuser | Method: DELETE | Path: /api/tags/b43c3992-b08c-4891-b84c-688a2e926a93/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 09:26:44,390 mixins User: testuser | Method: GET | Path: /api/tags/fe7d5a4d-3f1e-422d-915c-8ada3126a3ca/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:26:45,379 mixins User: testuser | Method: PUT | Path: /api/tags/a4ee79d7-9b0a-45bb-a47a-71c9d19c85a9/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:30:05,766 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 09:30:06,231 mixins User: testuser | Method: DELETE | Path: /api/tags/3b47f924-8417-484a-a096-eb38e19036f6/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 09:30:06,695 mixins User: testuser | Method: GET | Path: /api/tags/594b51e7-b5fd-43e8-b195-27b8ce87b84e/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:30:07,167 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:30:07,654 mixins User: testuser | Method: PUT | Path: /api/tags/fb45e22b-e365-4142-b6b3-146398ff12fc/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:30:08,175 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 09:30:08,644 mixins User: testuser | Method: DELETE | Path: /api/tags/5cd73505-b773-462d-bc7e-0014e0266497/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 09:30:09,107 mixins User: testuser | Method: GET | Path: /api/tags/0600012e-62b8-45e5-8fbb-4eeae142c447/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:30:09,572 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:30:10,060 mixins User: testuser | Method: PUT | Path: /api/tags/6d5c6609-d3f1-4253-bd2d-2f3404b25258/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:35:51,749 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 09:35:52,220 mixins User: testuser | Method: DELETE | Path: /api/tags/ad578a46-81c6-4bb7-a000-2c0c08df034f/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 09:35:52,694 mixins User: testuser | Method: GET | Path: /api/tags/ce3c3c74-f841-4017-bda9-88560f9cf4e3/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:35:53,168 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:35:53,659 mixins User: testuser | Method: PUT | Path: /api/tags/478473b0-a9f7-4a2a-8ed6-155f792c306b/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:38:21,141 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 09:38:21,608 mixins User: testuser | Method: DELETE | Path: /api/tags/130ce233-d851-4c5d-aecd-a5aa7914c301/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 09:38:22,073 mixins User: testuser | Method: GET | Path: /api/tags/d2229388-2156-476f-b534-ede646308576/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:38:22,539 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:38:23,026 mixins User: testuser | Method: PUT | Path: /api/tags/deee532d-79f2-4750-8bf1-9a8ac1ce0610/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:47:13,089 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 09:47:13,557 mixins User: testuser | Method: DELETE | Path: /api/tags/df12336e-9d99-4685-a1c5-e0e0115d6ed6/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 09:47:14,028 mixins User: testuser | Method: GET | Path: /api/tags/a9e31b45-0b3f-40c4-9890-d8d8989c21ae/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:47:14,502 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 09:47:14,994 mixins User: testuser | Method: PUT | Path: /api/tags/a395341e-c753-469c-a40e-f0abbe3f5226/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:04:49,494 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:04:49,969 mixins User: testuser | Method: DELETE | Path: /api/tags/637d724a-4d20-4232-87c6-c49767ca2f7b/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:04:50,441 mixins User: testuser | Method: GET | Path: /api/tags/0e6b1a37-b48b-4209-8f40-b3783762f0ef/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:04:50,915 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:04:51,407 mixins User: testuser | Method: PUT | Path: /api/tags/260c9b79-d40f-442f-b2f6-9c81ced9eecb/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:05:42,365 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:05:42,831 mixins User: testuser | Method: DELETE | Path: /api/tags/4fb68666-9589-45b9-b2eb-9d9f94051954/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:05:43,303 mixins User: testuser | Method: GET | Path: /api/tags/4bd2356f-5349-45ba-80d5-0f12d4457a93/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:05:43,776 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:05:44,271 mixins User: testuser | Method: PUT | Path: /api/tags/e7941d44-8039-4ea7-b808-8d9676d7ce94/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:07:10,232 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:07:10,701 mixins User: testuser | Method: DELETE | Path: /api/tags/8ed8b556-d8af-4b6a-a4e4-ba06e60a9cbe/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:07:11,179 mixins User: testuser | Method: GET | Path: /api/tags/e1df3de6-52db-4bdc-b318-24de6175f743/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:07:11,652 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:07:12,144 mixins User: testuser | Method: PUT | Path: /api/tags/7da23727-7cc8-43a5-80fc-33f5685ad617/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:08:57,119 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:08:57,617 mixins User: testuser | Method: DELETE | Path: /api/tags/fbd923fe-1186-40f3-89bb-e9b653fc56b7/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:08:58,104 mixins User: testuser | Method: GET | Path: /api/tags/c62f42c6-1421-4ac5-a03e-a8795f11b735/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:08:58,577 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:08:59,070 mixins User: testuser | Method: PUT | Path: /api/tags/989e76a8-a18a-4c82-bebd-b4aac458baec/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:09:48,931 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:09:49,411 mixins User: testuser | Method: DELETE | Path: /api/tags/c23b0115-b0bd-4936-803c-954222ea31c0/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:09:49,893 mixins User: testuser | Method: GET | Path: /api/tags/6a7ed999-005d-482e-94e4-36883e73a604/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:09:50,366 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:09:50,862 mixins User: testuser | Method: PUT | Path: /api/tags/2a0434c1-4ddf-4769-b420-e4c0b5d87d47/update/ | Status: 200 | IP: 127.0.0.1
+WARNING 2024-07-05 10:09:52,631 log Not Found: /login/
+WARNING 2024-07-05 10:09:53,271 log Not Found: /login/
+WARNING 2024-07-05 10:09:53,277 log Not Found: /signup/
+WARNING 2024-07-05 10:09:53,282 log Not Found: /signup/
+WARNING 2024-07-05 10:09:54,182 log Not Found: /update/2795a413-8583-400b-a9e3-213736aaf2ff/
+WARNING 2024-07-05 10:09:55,081 log Not Found: /update/22e18866-3996-4a5b-b7fc-4f8689085cad/
+WARNING 2024-07-05 10:09:55,981 log Not Found: /users/
+WARNING 2024-07-05 10:09:56,886 log Not Found: /users/
+INFO 2024-07-05 10:11:57,845 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:11:58,313 mixins User: testuser | Method: DELETE | Path: /api/tags/e2e63b03-104d-4c38-9bf0-f182fed35622/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:11:58,782 mixins User: testuser | Method: GET | Path: /api/tags/51ca405d-a956-4c5c-8aa8-93fb297c55e6/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:11:59,252 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:11:59,743 mixins User: testuser | Method: PUT | Path: /api/tags/5a16bf64-5e0b-44e4-9252-492f4469f86d/update/ | Status: 200 | IP: 127.0.0.1
+WARNING 2024-07-05 10:12:01,125 log Not Found: /login/
+WARNING 2024-07-05 10:12:01,760 log Not Found: /login/
+WARNING 2024-07-05 10:12:01,767 log Not Found: /signup/
+WARNING 2024-07-05 10:12:01,772 log Not Found: /signup/
+WARNING 2024-07-05 10:12:02,664 log Not Found: /update/e7f2343a-3a3b-4cf8-95aa-2273d4b28d1a/
+WARNING 2024-07-05 10:12:03,556 log Not Found: /update/198c2f59-4308-48f7-9dbe-2ac8c52f103b/
+WARNING 2024-07-05 10:12:04,442 log Not Found: /users/
+WARNING 2024-07-05 10:12:05,330 log Not Found: /users/
+INFO 2024-07-05 10:12:30,618 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:12:31,088 mixins User: testuser | Method: DELETE | Path: /api/tags/d3f15ad5-2130-42c4-90da-199617c3bc1d/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:12:31,557 mixins User: testuser | Method: GET | Path: /api/tags/4b43b3b5-801b-4dce-a6d9-3a03f3342c75/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:12:32,026 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:12:32,515 mixins User: testuser | Method: PUT | Path: /api/tags/00fe107d-7e3d-4a26-a240-e2077310ae7e/update/ | Status: 200 | IP: 127.0.0.1
+WARNING 2024-07-05 10:12:33,893 log Not Found: /login/
+WARNING 2024-07-05 10:12:34,523 log Not Found: /login/
+WARNING 2024-07-05 10:12:34,529 log Not Found: /signup/
+WARNING 2024-07-05 10:12:34,535 log Not Found: /signup/
+WARNING 2024-07-05 10:12:35,424 log Not Found: /update/6df722c4-48e7-4cdd-80bd-3b204bf6e190/
+WARNING 2024-07-05 10:12:36,319 log Not Found: /update/b13a48c2-4e1e-45c9-8144-9c2fe4d6ce97/
+WARNING 2024-07-05 10:12:37,209 log Not Found: /users/
+WARNING 2024-07-05 10:12:38,098 log Not Found: /users/
+INFO 2024-07-05 10:13:55,722 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:13:56,188 mixins User: testuser | Method: DELETE | Path: /api/tags/fca70589-465f-47e2-bbe3-ee738ca4c228/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:13:56,661 mixins User: testuser | Method: GET | Path: /api/tags/a4beb7e4-d611-46d3-bc08-a3d8de8b4418/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:13:57,134 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:13:57,628 mixins User: testuser | Method: PUT | Path: /api/tags/b9dc0773-ae5b-4bf7-8bf0-52df0633809b/update/ | Status: 200 | IP: 127.0.0.1
+WARNING 2024-07-05 10:13:59,650 log Not Found: /login/
+WARNING 2024-07-05 10:14:00,102 log Not Found: /login/
+WARNING 2024-07-05 10:14:00,108 log Not Found: /signup/
+WARNING 2024-07-05 10:14:00,114 log Not Found: /signup/
+WARNING 2024-07-05 10:14:01,021 log Not Found: /update/9749f938-e692-458f-84c9-82fcd8f0fbce/
+WARNING 2024-07-05 10:14:01,948 log Not Found: /update/c3b73985-e707-4cb0-85f7-7729749616f6/
+WARNING 2024-07-05 10:14:02,842 log Not Found: /users/
+WARNING 2024-07-05 10:14:03,741 log Not Found: /users/
+INFO 2024-07-05 10:16:19,216 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:16:19,695 mixins User: testuser | Method: DELETE | Path: /api/tags/ca25ec21-ebd3-4b3d-bcec-76f9cdf0292d/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:16:20,176 mixins User: testuser | Method: GET | Path: /api/tags/9ada58e1-1f31-4225-a5fc-2feaaf7f7413/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:16:20,652 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:16:21,142 mixins User: testuser | Method: PUT | Path: /api/tags/9b2eae91-8041-47d7-b1a2-4b175c1d1863/update/ | Status: 200 | IP: 127.0.0.1
+WARNING 2024-07-05 10:16:23,015 log Not Found: /login/
+WARNING 2024-07-05 10:16:23,647 log Not Found: /login/
+WARNING 2024-07-05 10:16:23,653 log Not Found: /signup/
+WARNING 2024-07-05 10:16:23,658 log Not Found: /signup/
+WARNING 2024-07-05 10:16:24,556 log Not Found: /update/b86d23f5-68a5-49bf-825e-3a03d6170fa7/
+WARNING 2024-07-05 10:16:25,448 log Not Found: /update/2de5eabd-0fcf-43d3-936a-fcaac0be9ed7/
+WARNING 2024-07-05 10:16:26,340 log Not Found: /users/
+WARNING 2024-07-05 10:16:27,232 log Not Found: /users/
+INFO 2024-07-05 10:17:52,711 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:17:53,175 mixins User: testuser | Method: DELETE | Path: /api/tags/a42e81a2-c591-41dc-9539-35fbd76e0c94/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:17:53,644 mixins User: testuser | Method: GET | Path: /api/tags/bff7045c-27f3-42bf-a222-dc71a61f84d0/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:17:54,112 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:17:54,598 mixins User: testuser | Method: PUT | Path: /api/tags/c7e081d1-274d-41c9-81d0-91e338a5be1f/update/ | Status: 200 | IP: 127.0.0.1
+WARNING 2024-07-05 10:17:56,419 log Not Found: /login/
+WARNING 2024-07-05 10:17:57,032 log Not Found: /login/
+WARNING 2024-07-05 10:17:57,061 log Not Found: /signup/
+WARNING 2024-07-05 10:17:57,066 log Not Found: /signup/
+WARNING 2024-07-05 10:17:57,953 log Not Found: /update/64086b84-a095-4705-a271-058702db5c45/
+WARNING 2024-07-05 10:17:58,837 log Not Found: /update/faf40f7f-e4c0-4396-a7ec-b908dc9def30/
+WARNING 2024-07-05 10:17:59,720 log Not Found: /users/
+WARNING 2024-07-05 10:18:00,609 log Not Found: /users/
+INFO 2024-07-05 10:22:57,069 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:22:57,537 mixins User: testuser | Method: DELETE | Path: /api/tags/b5ef3bce-3527-4577-a530-f53bc2456c84/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:22:57,998 mixins User: testuser | Method: GET | Path: /api/tags/e08e27a9-fac6-4a2f-96c6-79e8ecce9450/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:22:58,461 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:22:58,945 mixins User: testuser | Method: PUT | Path: /api/tags/8e1e63a1-eb8a-49ea-b03b-a6b7874408de/update/ | Status: 200 | IP: 127.0.0.1
+WARNING 2024-07-05 10:23:04,937 log Not Found: /apiauth/users/
+INFO 2024-07-05 10:23:33,106 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:23:33,580 mixins User: testuser | Method: DELETE | Path: /api/tags/cb6e7006-103f-4b28-8a80-7575270cbeff/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:23:34,049 mixins User: testuser | Method: GET | Path: /api/tags/40da0dc6-ec61-462d-8d10-d2679b12e706/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:23:34,526 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:23:35,017 mixins User: testuser | Method: PUT | Path: /api/tags/51572c03-b645-4017-bb8f-ec5837e1a19b/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:23:37,398 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:23:38,339 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 10:23:38,339 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 10:23:38,815 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:23:39,270 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:23:42,173 mixins User: admin | Method: GET | Path: /api/auth/users/ | Status: 200 | IP: 127.0.0.1
+WARNING 2024-07-05 10:23:43,079 log Not Found: /apiauth/users/
+INFO 2024-07-05 10:26:30,997 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:26:31,467 mixins User: testuser | Method: DELETE | Path: /api/tags/c2e4c5a2-3f6b-4e78-ab0d-db34dd23b2c9/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:26:31,935 mixins User: testuser | Method: GET | Path: /api/tags/27a45a6c-8388-402e-abc2-b421d1d11de9/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:26:32,403 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:26:32,893 mixins User: testuser | Method: PUT | Path: /api/tags/3d335acb-db19-4a2e-8089-2be1cb2a3af8/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:26:35,162 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:26:36,053 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 10:26:36,053 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 10:26:36,514 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:26:36,961 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:26:38,012 mixins User: admin | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:26:38,903 mixins User: admin | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:26:39,820 mixins User: admin | Method: GET | Path: /api/auth/users/ | Status: 200 | IP: 127.0.0.1
+WARNING 2024-07-05 10:26:40,724 log Not Found: /apiauth/users/
+INFO 2024-07-05 10:27:09,752 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:27:10,225 mixins User: testuser | Method: DELETE | Path: /api/tags/a1517b16-e3fb-428d-b3a2-09f5c342b915/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:27:10,687 mixins User: testuser | Method: GET | Path: /api/tags/0923ba63-bb75-4471-96fd-7e704afcc829/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:27:11,151 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:27:11,638 mixins User: testuser | Method: PUT | Path: /api/tags/167b672e-0c75-44ac-954e-164038332939/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:27:13,916 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:27:14,792 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 10:27:14,792 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 10:27:15,247 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:27:15,252 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 10:27:15,252 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 10:27:16,132 mixins User: admin | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:27:17,020 mixins User: admin | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:27:18,071 mixins User: admin | Method: GET | Path: /api/auth/users/ | Status: 200 | IP: 127.0.0.1
+WARNING 2024-07-05 10:27:18,998 log Not Found: /apiauth/users/
+INFO 2024-07-05 10:28:36,731 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:28:37,197 mixins User: testuser | Method: DELETE | Path: /api/tags/7060d8b1-90d4-46f2-9d7f-a2cb775f32e8/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:28:37,659 mixins User: testuser | Method: GET | Path: /api/tags/0e59cdb2-3625-4874-ad4e-a58c73ff1e7b/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:28:38,127 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:28:38,615 mixins User: testuser | Method: PUT | Path: /api/tags/8ba0379e-6f62-4620-8e85-e6348f5e7cc5/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:28:40,865 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:28:41,750 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 10:28:41,751 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 10:28:42,204 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:28:42,209 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 10:28:42,209 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 10:28:43,099 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:28:43,985 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:28:45,059 mixins User: admin | Method: GET | Path: /api/auth/users/ | Status: 200 | IP: 127.0.0.1
+WARNING 2024-07-05 10:28:45,957 log Not Found: /apiauth/users/
+INFO 2024-07-05 10:37:42,145 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:37:42,617 mixins User: testuser | Method: DELETE | Path: /api/tags/be693320-98df-4123-9518-3bf4888e4fb8/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:37:43,086 mixins User: testuser | Method: GET | Path: /api/tags/76c2d8d4-e2b0-4838-abe3-bea73d706432/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:37:43,557 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:37:44,050 mixins User: testuser | Method: PUT | Path: /api/tags/f6ca7c11-173f-495f-9776-98d03f492d37/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:37:46,315 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:37:47,209 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 10:37:47,210 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 10:37:47,662 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:37:47,667 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 10:37:47,667 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 10:37:48,554 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:37:49,447 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:37:50,584 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 10:37:50,585 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 10:38:29,501 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:38:29,981 mixins User: testuser | Method: DELETE | Path: /api/tags/2d7f5fec-0583-4a43-b7b5-d7d7c6996d10/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:38:30,455 mixins User: testuser | Method: GET | Path: /api/tags/380a25bc-3704-4a12-b257-9887e9d20e6a/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:38:30,923 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:38:31,412 mixins User: testuser | Method: PUT | Path: /api/tags/59d30a3d-c22b-499a-be2e-a5e4cae9c3b4/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:38:33,660 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:38:34,541 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 10:38:34,542 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 10:38:34,992 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:38:34,997 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 10:38:34,997 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 10:38:35,885 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:38:36,791 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:38:37,846 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 10:38:37,847 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 10:38:38,757 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 10:38:38,757 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 10:43:18,913 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:43:19,382 mixins User: testuser | Method: DELETE | Path: /api/tags/b8af1ff5-1e1f-4b26-9e8d-77215900bc5a/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:43:19,852 mixins User: testuser | Method: GET | Path: /api/tags/eaedbabc-cdcc-423c-9515-2fc659ac088f/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:43:20,321 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:43:20,806 mixins User: testuser | Method: PUT | Path: /api/tags/8835e3d8-12c9-4bea-acf2-265d25293eed/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:43:23,064 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:43:23,944 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 10:43:23,945 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 10:43:24,396 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:43:24,400 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 10:43:24,401 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 10:43:25,290 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:43:26,184 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:43:27,236 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 10:43:27,236 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 10:43:28,159 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 10:43:28,159 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 10:47:13,055 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 10:47:39,802 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:47:39,803 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 10:47:41,880 mixins User: test_user_1 | Method: GET | Path: /api/auth/users/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:47:41,881 basehttp "GET /api/auth/users/ HTTP/1.1" 200 198
+INFO 2024-07-05 10:48:52,107 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:48:52,576 mixins User: testuser | Method: DELETE | Path: /api/tags/7f4c11df-3700-43ab-bccc-ba929ea3b85e/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 10:48:53,045 mixins User: testuser | Method: GET | Path: /api/tags/e2b3848f-8ef0-449b-973a-0c77e742829b/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:48:53,516 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:48:54,011 mixins User: testuser | Method: PUT | Path: /api/tags/ba6de79a-a1bb-400e-b091-60a301f1ca51/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:48:56,277 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:48:57,164 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 10:48:57,164 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 10:48:57,617 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 10:48:57,622 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 10:48:57,622 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 10:48:58,505 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:48:59,394 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:49:00,477 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 10:49:00,477 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 10:49:01,373 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 10:49:01,373 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 10:53:43,818 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 10:53:48,659 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:53:48,660 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 10:53:50,736 mixins User: test_user_1 | Method: GET | Path: /api/auth/users/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:53:50,736 basehttp "GET /api/auth/users/?search=test HTTP/1.1" 200 198
+INFO 2024-07-05 10:56:55,878 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:56:55,879 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 10:56:58,080 basehttp "GET /api/auth/update HTTP/1.1" 301 0
+INFO 2024-07-05 10:57:00,145 mixins User: test_user_1 | Method: GET | Path: /api/auth/update/ | Status: 405 | IP: 127.0.0.1
+WARNING 2024-07-05 10:57:00,146 log Method Not Allowed: /api/auth/update/
+WARNING 2024-07-05 10:57:00,146 basehttp "GET /api/auth/update/ HTTP/1.1" 405 40
+INFO 2024-07-05 10:57:16,589 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:57:16,590 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 10:57:18,689 log Internal Server Error: /api/auth/update
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/auth/update/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-05 10:57:18,689 basehttp "PUT /api/auth/update HTTP/1.1" 500 74091
+INFO 2024-07-05 10:58:40,086 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 10:58:40,086 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 10:58:42,147 log Internal Server Error: /api/auth/update
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/auth/update/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-05 10:58:42,147 basehttp "PUT /api/auth/update HTTP/1.1" 500 74091
+INFO 2024-07-05 11:00:01,094 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 11:00:29,272 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:00:29,273 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 11:00:31,325 log Internal Server Error: /api/auth/update
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/auth/update/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-05 11:00:31,326 basehttp "PUT /api/auth/update HTTP/1.1" 500 74091
+INFO 2024-07-05 11:00:59,940 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:00:59,941 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 11:01:02,000 log Internal Server Error: /api/auth/update
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/auth/update/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-05 11:01:02,001 basehttp "PUT /api/auth/update HTTP/1.1" 500 74091
+INFO 2024-07-05 11:01:18,123 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:01:18,124 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 11:01:20,185 log Internal Server Error: /api/auth/update
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/auth/update/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-05 11:01:20,186 basehttp "PUT /api/auth/update HTTP/1.1" 500 74091
+INFO 2024-07-05 11:01:30,049 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:01:30,050 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 11:01:32,107 log Internal Server Error: /api/auth/update
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/auth/update/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-05 11:01:32,108 basehttp "PUT /api/auth/update HTTP/1.1" 500 74091
+INFO 2024-07-05 11:01:41,737 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:01:41,737 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 11:01:43,790 log Internal Server Error: /api/auth/update
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/auth/update/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-05 11:01:43,790 basehttp "PUT /api/auth/update HTTP/1.1" 500 74091
+INFO 2024-07-05 11:03:20,744 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:03:20,745 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 11:03:22,821 log Internal Server Error: /api/auth/update
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/auth/update/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-05 11:03:22,822 basehttp "PUT /api/auth/update HTTP/1.1" 500 74091
+INFO 2024-07-05 11:04:34,417 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:04:34,419 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 11:04:36,470 log Internal Server Error: /api/auth/update
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/auth/update/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-05 11:04:36,471 basehttp "PUT /api/auth/update HTTP/1.1" 500 74091
+INFO 2024-07-05 11:05:02,222 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:05:02,223 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 11:05:04,273 log Internal Server Error: /api/auth/update
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/auth/update/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-05 11:05:04,274 basehttp "PUT /api/auth/update HTTP/1.1" 500 74091
+INFO 2024-07-05 11:06:23,319 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:06:23,320 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-05 11:06:25,381 log Internal Server Error: /api/auth/update
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to localhost:8000/api/auth/update/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2024-07-05 11:06:25,381 basehttp "PATCH /api/auth/update HTTP/1.1" 500 74121
+INFO 2024-07-05 11:06:48,561 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:06:48,562 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 11:06:50,642 mixins User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:06:50,643 basehttp "PATCH /api/auth/update/ HTTP/1.1" 200 52
+INFO 2024-07-05 11:08:53,211 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-05 11:08:54,082 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 11:08:55,595 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-05 11:08:56,485 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 11:08:57,999 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-05 11:08:58,861 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 11:09:24,466 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 11:09:25,003 mixins User: testuser | Method: DELETE | Path: /api/tags/98610b55-7894-4b9a-b590-e80bc1747dca/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 11:09:25,475 mixins User: testuser | Method: GET | Path: /api/tags/eabe52a7-722c-434e-80dc-dd39dfc6324b/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:09:25,948 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:09:26,448 mixins User: testuser | Method: PUT | Path: /api/tags/9faaa22d-13d8-43f3-b36a-069bc95b51a9/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:09:28,729 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:09:29,620 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 11:09:29,621 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 11:09:30,075 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 11:09:30,080 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 11:09:30,081 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 11:09:30,979 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 11:09:30,980 log Bad Request: /api/auth/update/
+INFO 2024-07-05 11:09:32,053 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:09:32,981 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 11:09:32,981 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 11:09:33,883 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 11:09:33,883 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 11:10:16,794 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 11:10:17,259 mixins User: testuser | Method: DELETE | Path: /api/tags/7b8343c8-0d7f-46f6-a4cd-a22edd8d1398/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 11:10:17,734 mixins User: testuser | Method: GET | Path: /api/tags/1eeb0b4c-cbb8-41e0-b31b-41d1d1d3e34f/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:10:18,202 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:10:18,690 mixins User: testuser | Method: PUT | Path: /api/tags/e9151355-b341-4576-8c6a-8be13bcbf679/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:10:20,934 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:10:21,823 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 11:10:21,824 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 11:10:22,272 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 11:10:22,276 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 11:10:22,276 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 11:10:23,162 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:10:24,035 mixins User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:10:25,083 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 11:10:25,084 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 11:10:25,997 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 11:10:25,997 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 11:11:38,569 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 11:11:44,431 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:11:44,432 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 11:11:46,500 mixins User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:11:46,502 basehttp "PATCH /api/auth/update/ HTTP/1.1" 200 76
+INFO 2024-07-05 11:12:15,148 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-05 11:12:16,007 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 11:13:01,873 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 11:13:01,874 log Unauthorized: /api/auth/login/
+WARNING 2024-07-05 11:13:01,874 basehttp "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2024-07-05 11:13:20,903 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 11:13:20,904 log Unauthorized: /api/auth/login/
+WARNING 2024-07-05 11:13:20,904 basehttp "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2024-07-05 11:15:33,297 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-05 11:15:34,174 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 11:15:35,695 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-05 11:15:36,573 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 11:15:38,095 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-05 11:15:39,013 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 11:15:40,526 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-05 11:15:41,391 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 11:15:44,067 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 11:15:44,067 log Unauthorized: /api/auth/login/
+WARNING 2024-07-05 11:15:44,068 basehttp "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2024-07-05 11:16:20,325 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:16:20,326 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 11:16:22,395 mixins User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 11:16:22,396 log Bad Request: /api/auth/update/
+WARNING 2024-07-05 11:16:22,396 basehttp "PATCH /api/auth/update/ HTTP/1.1" 400 125
+INFO 2024-07-05 11:16:52,744 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:16:52,745 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 11:16:55,352 mixins User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:16:55,353 basehttp "PATCH /api/auth/update/ HTTP/1.1" 200 52
+INFO 2024-07-05 11:17:42,511 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 11:17:42,512 log Unauthorized: /api/auth/login/
+WARNING 2024-07-05 11:17:42,512 basehttp "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2024-07-05 11:17:52,122 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:17:52,123 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-05 11:17:54,615 mixins User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:17:54,616 basehttp "PATCH /api/auth/update/ HTTP/1.1" 200 52
+INFO 2024-07-05 11:18:19,400 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 11:18:19,866 mixins User: testuser | Method: DELETE | Path: /api/tags/1572cde9-5939-4f69-8b9d-aded6a591233/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-05 11:18:20,338 mixins User: testuser | Method: GET | Path: /api/tags/7fd2b64a-ec81-45f0-80e4-bc9f5638124a/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:18:20,803 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:18:21,289 mixins User: testuser | Method: PUT | Path: /api/tags/57cb2d21-6bc0-44c7-bdcf-b5e0cacded29/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:18:23,533 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:18:24,437 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-05 11:18:24,437 log Unauthorized: /api/auth/login/
+INFO 2024-07-05 11:18:24,912 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-05 11:18:24,917 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 11:18:24,917 log Bad Request: /api/auth/signup/
+INFO 2024-07-05 11:18:25,827 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-05 11:18:26,712 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-05 11:18:26,712 log Bad Request: /api/auth/update/
+INFO 2024-07-05 11:18:27,593 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 11:18:27,594 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 11:18:28,653 mixins User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+ERROR 2024-07-05 11:18:28,653 log Internal Server Error: /api/auth/users/
+INFO 2024-07-05 11:25:35,843 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 11:25:44,693 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-05 11:25:45,539 autoreload Watching for file changes with StatReloader
+INFO 2024-07-05 11:26:06,952 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-05 11:26:07,803 autoreload Watching for file changes with StatReloader

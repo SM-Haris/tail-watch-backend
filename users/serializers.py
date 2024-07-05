@@ -2,6 +2,7 @@ from rest_framework import serializers
 from .validators import validate_password
 from .models import CustomUser
 from rest_framework_simplejwt.serializers import TokenObtainPairSerializer
+from rest_framework.validators import UniqueValidator
 
 
 class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
@@ -23,7 +24,9 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
 
 class CustomUserCreationSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True, validators=[validate_password])
-
+    subscription_id = serializers.EmailField(
+        write_only=True, validators=[UniqueValidator(queryset=CustomUser.objects.all())]
+    )
     class Meta:
         model = CustomUser
         fields = ["id", "username", "phone_number", "email", "password", "address"]
@@ -47,6 +50,21 @@ class CustomUserListSerializer(serializers.ModelSerializer):
 
 
 class CustomUserUpdateSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(write_only=True, validators=[validate_password], required=False)
+
     class Meta:
         model = CustomUser
-        fields = ["phone_number", "address"]
+        fields = ["phone_number", "address", "password"]
+
+    def update(self, instance, validated_data):
+        password = validated_data.pop('password', None)
+
+        instance.phone_number = validated_data.get('phone_number', instance.phone_number)
+        instance.address = validated_data.get('address', instance.address)
+
+        if password:
+            instance.set_password(password) 
+        instance.save()
+        
+        return instance
+

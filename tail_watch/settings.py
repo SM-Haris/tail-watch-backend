@@ -52,6 +52,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
+    'tail_watch.middleware.ExceptionLoggingMiddleware',
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -108,6 +109,11 @@ DATABASES = {
         "PASSWORD": "1234",
         "HOST": "localhost",
         "PORT": "5432",
+        'OPTIONS': {
+            'connect_timeout': 10,  # Timeout for database connections
+        },
+        'CONN_MAX_AGE': 60,  # Reuse database connections for 60 seconds
+        'ATOMIC_REQUESTS': True,  # Wrap each request in a transaction
     }
 }
 

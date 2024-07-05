@@ -1,0 +1,405 @@
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Error: Method "GET" not allowed. | User: test_user_1 | Method: GET | Path: /api/auth/update/ | Status: 405 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='This field is required.', code='required')]} | User: testuser | Method: PUT | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Unhandled error: 'list' object has no attribute 'model'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 52, in AutoFilterSet
+    class Meta(MetaBase):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django_filters\rest_framework\backends.py", line 53, in Meta
+    model = queryset.model
+            ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'model'
+Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1

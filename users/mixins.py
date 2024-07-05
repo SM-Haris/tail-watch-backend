@@ -40,4 +40,5 @@ class UserQuerySetMixin:
             return queryset
 
         self.request.user = user
-        return [user]
+        qs = queryset.filter(username=user.username)
+        return qs
