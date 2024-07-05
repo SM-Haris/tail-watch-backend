@@ -403,3 +403,1000 @@ Traceback (most recent call last):
             ^^^^^^^^^^^^^^
 AttributeError: 'list' object has no attribute 'model'
 Error: 'list' object has no attribute 'model' | User: testuser | Method: GET | Path: /api/auth/users/ | Status: 500 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: The field 'subscription_id' was declared on serializer CustomUserCreationSerializer, but has not been included in the 'fields' option.
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'subscription_id' was declared on serializer CustomUserCreationSerializer, but has not been included in the 'fields' option.
+Error: The field 'subscription_id' was declared on serializer CustomUserCreationSerializer, but has not been included in the 'fields' option. | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+Unhandled error: The field 'subscription_id' was declared on serializer CustomUserCreationSerializer, but has not been included in the 'fields' option.
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 18, in create
+    serializer.is_valid(raise_exception=True)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 223, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 442, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 495, in to_internal_value
+    for field in fields:
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 378, in _writable_fields
+    for field in self.fields.values():
+                 ^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+                      ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+           ^^^^^^^^^^^^^^^^^^^^
+AssertionError: The field 'subscription_id' was declared on serializer CustomUserCreationSerializer, but has not been included in the 'fields' option.
+Error: The field 'subscription_id' was declared on serializer CustomUserCreationSerializer, but has not been included in the 'fields' option. | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: 'address'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\users\serializers.py", line 40, in create
+    address=validated_data["address"],
+            ~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'address'
+Error: 'address' | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: 'address'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\users\serializers.py", line 40, in create
+    address=validated_data["address"],
+            ~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'address'
+Error: 'address' | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: 'address'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\users\serializers.py", line 40, in create
+    address=validated_data["address"],
+            ~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'address'
+Error: 'address' | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: 'address'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\users\serializers.py", line 60, in create
+    address=validated_data["address"],
+            ~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'address'
+Error: 'address' | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: null value in column "address" of relation "users_customuser" violates not-null constraint
+DETAIL:  Failing row contains (pbkdf2_sha256$600000$npV3t61TGOaQ6LwEnAh97m$1Wf6k1JAMqcb5EzfgS7e..., null, f, newuser, , , testuser@example.com, f, t, 2024-07-05 11:34:05.321596+00, 895917d2-9bee-478c-9e57-2bbd4d244810, null, 1234567890).
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "address" of relation "users_customuser" violates not-null constraint
+DETAIL:  Failing row contains (pbkdf2_sha256$600000$npV3t61TGOaQ6LwEnAh97m$1Wf6k1JAMqcb5EzfgS7e..., null, f, newuser, , , testuser@example.com, f, t, 2024-07-05 11:34:05.321596+00, 895917d2-9bee-478c-9e57-2bbd4d244810, null, 1234567890).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\users\serializers.py", line 63, in create
+    user.save()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\contrib\auth\base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "address" of relation "users_customuser" violates not-null constraint
+DETAIL:  Failing row contains (pbkdf2_sha256$600000$npV3t61TGOaQ6LwEnAh97m$1Wf6k1JAMqcb5EzfgS7e..., null, f, newuser, , , testuser@example.com, f, t, 2024-07-05 11:34:05.321596+00, 895917d2-9bee-478c-9e57-2bbd4d244810, null, 1234567890).
+
+Error: null value in column "address" of relation "users_customuser" violates not-null constraint
+DETAIL:  Failing row contains (pbkdf2_sha256$600000$npV3t61TGOaQ6LwEnAh97m$1Wf6k1JAMqcb5EzfgS7e..., null, f, newuser, , , testuser@example.com, f, t, 2024-07-05 11:34:05.321596+00, 895917d2-9bee-478c-9e57-2bbd4d244810, null, 1234567890).
+ | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 500 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+Error: {'address': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+Error: {'address': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Unhandled error: type object 'TokenBackend' has no attribute 'ValidationError'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+Unhandled exception: type object 'TokenBackend' has no attribute 'ValidationError'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\shared\mixins.py", line 17, in handle_exception
+    user = self.request.user if self.request.user.is_authenticated else "Anonymous"
+                                ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+Unhandled error: type object 'TokenBackend' has no attribute 'ValidationError'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+Unhandled exception: type object 'TokenBackend' has no attribute 'ValidationError'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\shared\mixins.py", line 17, in handle_exception
+    user = self.request.user if self.request.user.is_authenticated else "Anonymous"
+                                ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+Unhandled error: type object 'TokenBackend' has no attribute 'ValidationError'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+Unhandled exception: type object 'TokenBackend' has no attribute 'ValidationError'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 14, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\shared\mixins.py", line 17, in handle_exception
+    user = self.request.user if self.request.user.is_authenticated else "Anonymous"
+                                ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 230, in user
+    with wrap_attributeerrors():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 74, in wrap_attributeerrors
+    yield
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 18, in authenticate
+    except (TokenBackend.ValidationError, CustomUser.DoesNotExist):
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+rest_framework.request.WrappedAttributeError: type object 'TokenBackend' has no attribute 'ValidationError'
+Unhandled error: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+Unhandled exception: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\shared\mixins.py", line 17, in handle_exception
+    user = self.request.user if self.request.user.is_authenticated else "Anonymous"
+                                ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+Unhandled error: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+Unhandled exception: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\shared\mixins.py", line 17, in handle_exception
+    user = self.request.user if self.request.user.is_authenticated else "Anonymous"
+                                ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+Unhandled error: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+Unhandled exception: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.1264.0_x64__qbz5n2kfra8p0\Lib\contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\shared\mixins.py", line 17, in handle_exception
+    user = self.request.user if self.request.user.is_authenticated else "Anonymous"
+                                ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 231, in user
+    self._authenticate()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\request.py", line 384, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\tail_watch\jwt_authentication.py", line 15, in authenticate
+    verified_payload, _ = TokenBackend().decode(token)
+                          ^^^^^^^^^^^^^^
+TypeError: TokenBackend.__init__() missing 1 required positional argument: 'algorithm'
+Unhandled error: Expected view UserRetreiveAPIView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 212, in get
+    return self.retrieve(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 54, in retrieve
+    instance = self.get_object()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected view UserRetreiveAPIView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+Error: Expected view UserRetreiveAPIView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly. | User: test_user_1 | Method: GET | Path: /api/auth/me/ | Status: 500 | IP: 127.0.0.1
+Unhandled error: Expected view UserUpdateAPIView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 233, in patch
+    return self.partial_update(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 65, in update
+    instance = self.get_object()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected view UserUpdateAPIView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+Error: Expected view UserUpdateAPIView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly. | User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 500 | IP: 127.0.0.1
+Unhandled error: Expected view UserUpdateAPIView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 233, in patch
+    return self.partial_update(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 65, in update
+    instance = self.get_object()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected view UserUpdateAPIView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+Error: Expected view UserUpdateAPIView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly. | User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 500 | IP: 127.0.0.1
+Unhandled error: Expected view UserUpdateAPIView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 233, in patch
+    return self.partial_update(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 65, in update
+    instance = self.get_object()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Expected view UserUpdateAPIView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+Error: Expected view UserUpdateAPIView to be called with a URL keyword argument named "pk". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly. | User: test_user_1 | Method: PATCH | Path: /api/auth/update/ | Status: 500 | IP: 127.0.0.1
+Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+Error: {'address': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1

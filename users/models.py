@@ -5,9 +5,9 @@ from django.db import models
 
 class CustomUser(AbstractUser):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    address = models.CharField(max_length=255, blank=True, null=True)
-    phone_number = models.CharField(max_length=15, blank=True, null=True)
-    email = models.EmailField(unique=True)
+    address = models.CharField(max_length=255, null=False)
+    phone_number = models.CharField(max_length=15, null=False)
+    email = models.EmailField(unique=True,null=False)
     groups = models.ManyToManyField(
         Group,
         related_name="customuser_set",

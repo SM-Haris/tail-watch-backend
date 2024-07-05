@@ -32,6 +32,12 @@ class TestLoginView:
         response = self.client.post(url, data, format="json")
         assert response.status_code == status.HTTP_401_UNAUTHORIZED
 
+    def test_login_failure_missing_field(self):
+        url = reverse('login')
+        data = {"username": "testuser"}
+        response = self.client.post(url, data, format="json")
+        assert response.status_code == status.HTTP_400_BAD_REQUEST
+
 
 @pytest.mark.django_db
 class TestSignupView:
@@ -53,7 +59,18 @@ class TestSignupView:
         print(response)
         assert response.status_code == status.HTTP_201_CREATED
 
-    def test_signup_failure(self):
+    def test_signup_failure_missing_field(self):
+        url = reverse('signup')
+        data = {
+            "username": "newuser",
+            "email": "testuser@example.com",
+            "password": "Mm34567*",
+            "phone_number": "1234567890",
+        }
+        response = self.client.post(url, data, format="json")
+        assert response.status_code == status.HTTP_400_BAD_REQUEST
+
+    def test_signup_failure_invalid_password(self):
         url = reverse('signup')
         data = {
             "username": "newuser",
@@ -99,11 +116,22 @@ class TestUserUpdateAPIView:
     def test_user_update_failure(self):
         url = reverse('user-update')
         data = {
-            "password": "invalidemail",  # Invalid field for update
+            "password": "invalidemail",  
         }
         response = self.client.patch(url, data, format="json")
         print(response)
         assert response.status_code == status.HTTP_400_BAD_REQUEST
+
+    def test_user_update_success_from_admin(self):
+        self.client.force_authenticate(user=self.admin_user)
+        url = reverse('user-update')
+        data = {
+            "phone_number": "9998887777",
+            "address": "Updated Address",
+        }
+        response = self.client.patch(url, data, format="json")
+        assert response.status_code == status.HTTP_200_OK
+        assert response.data["phone_number"] == "9998887777"
 
 
 # @pytest.mark.django_db

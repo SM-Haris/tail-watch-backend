@@ -13,19 +13,19 @@ from rest_framework import generics
 from .models import CustomUser
 
 
-class LoginView(AuditLogMixin, TokenObtainPairView):
+class LoginView(AuditLogMixin, UserQuerySetMixin, TokenObtainPairView):
     queryset = CustomUser.objects.all()
     serializer_class = MyTokenObtainPairSerializer
-    permission_classes = []
 
 
-class SignupView(AuditLogMixin, generics.CreateAPIView):
+class SignupView(AuditLogMixin, UserQuerySetMixin, generics.CreateAPIView):
     queryset = CustomUser.objects.all()
     serializer_class = CustomUserCreationSerializer
-    permission_classes = []
 
 
-class UserUpdateAPIView(AuditLogMixin, UserObjectMixin, generics.UpdateAPIView):
+class UserUpdateAPIView(
+    AuditLogMixin, UserObjectMixin, UserQuerySetMixin, generics.UpdateAPIView
+):
     queryset = CustomUser.objects.all()
     serializer_class = CustomUserUpdateSerializer
 
@@ -34,11 +34,9 @@ class UserListAPIView(AuditLogMixin, UserQuerySetMixin, generics.ListAPIView):
     queryset = CustomUser.objects.all()
     serializer_class = CustomUserListSerializer
     filter_backends = [DjangoFilterBackend, filters.SearchFilter]
-    filterset_fields = ["username", "email"]
-    search_fields = ["username", "email", "address", "phone_number"]
 
 
 login_view = LoginView.as_view()
 signup_view = SignupView.as_view()
 custom_user_update_view = UserUpdateAPIView.as_view()
-custom_user_list_view = UserListAPIView.as_view()
+custom_user_detail_view = UserListAPIView().as_view()

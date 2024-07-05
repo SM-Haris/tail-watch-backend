@@ -1,31 +1,22 @@
-from tags.serializers import TagAdminSerializer
-from shared.utils import ExtractUserFromRequest
-
+from admin_api.serializers import AdminTagSerializer
 
 class UserQuerySetMixin:
     user_field = "owner"
 
     def get_queryset(self, *args, **kwargs):
-        user = ExtractUserFromRequest(self.request)
         lookup_data = {}
-        lookup_data[self.user_field] = user
+        lookup_data[self.user_field] = self.request.user
 
         queryset = super().get_queryset(*args, **kwargs)
 
-        if user and user.is_superuser:
-            return queryset
-
-        self.request.user = user
         return queryset.filter(**lookup_data)
 
 
 class SuperuserSerializerMixin:
-    admin_serializer_class = TagAdminSerializer
+    admin_serializer_class = AdminTagSerializer
 
     def get_serializer_class(self):
-        user = ExtractUserFromRequest(self.request)
-
-        if user and user.is_superuser:
+        if self.request.user.is_superuser:
             return self.admin_serializer_class
 
         return self.serializer_class
