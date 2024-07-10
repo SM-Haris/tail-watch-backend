@@ -38,3 +38,25 @@ class TagUpdateSerializer(serializers.ModelSerializer):
             "disease",
             "recommended_medicine",
         ]
+
+class TagTrackSerializer(serializers.ModelSerializer):
+    owner_name = serializers.CharField(source='owner.username')
+    owner_address = serializers.CharField(source='owner.address')
+    owner_phone_number = serializers.CharField(source='owner.phone_number')
+
+    class Meta:
+        model = Tag
+        fields = [
+            "id",
+            "pet_name",
+            "gender",
+            "disease",
+            "recommended_medicine",
+            "subscription_choice",
+            "subscription_id",
+            "delivery_address",
+            "created_at",
+            "owner_name",
+            "owner_address",
+            "owner_phone_number",
+        ]

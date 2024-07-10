@@ -5,6 +5,7 @@ from .views import (
     tag_delete_view,
     tag_detail_view,
     tag_update_view,
+    tag_track_view
 )
 
 urlpatterns = [
@@ -13,4 +14,5 @@ urlpatterns = [
     path("<uuid:id>/", tag_detail_view, name="tag-detail"),
     path("<uuid:id>/update/", tag_update_view, name="tag-update"),
     path("<uuid:id>/delete/", tag_delete_view, name="tag-delete"),
+    path("<uuid:id>/track/", tag_track_view, name="tag-track"),
 ]

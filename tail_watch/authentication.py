@@ -1,6 +1,16 @@
 from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework_simplejwt.exceptions import InvalidToken, TokenError
 from rest_framework.exceptions import AuthenticationFailed
+from rest_framework.response import Response
+from rest_framework import status
+
+from rest_framework.exceptions import APIException
+from rest_framework import status
+
+class ForbiddenException(APIException):
+    status_code = status.HTTP_401_UNAUTHORIZED
+    default_detail = 'User is not present. Token is missing.'
+    default_code = 'forbidden'
 
 class UserJWTAuthentication(JWTAuthentication):
 
@@ -8,11 +18,11 @@ class UserJWTAuthentication(JWTAuthentication):
         header = self.get_header(request)
 
         if header is None:
-            return None
+            raise ForbiddenException
 
         raw_token = self.get_raw_token(header)
         if raw_token is None:
-            return None
+            raise ForbiddenException
 
         validated_token = self.get_validated_token(raw_token)
 
