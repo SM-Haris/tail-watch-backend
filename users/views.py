@@ -16,12 +16,13 @@ from .models import CustomUser
 class LoginView(AuditLogMixin, UserQuerySetMixin, TokenObtainPairView):
     queryset = CustomUser.objects.all()
     serializer_class = MyTokenObtainPairSerializer
+    permission_classes = []
 
 
 class SignupView(AuditLogMixin, UserQuerySetMixin, generics.CreateAPIView):
     queryset = CustomUser.objects.all()
     serializer_class = CustomUserCreationSerializer
-
+    permission_classes = []
 
 class UserUpdateAPIView(
     AuditLogMixin, UserObjectMixin, UserQuerySetMixin, generics.UpdateAPIView

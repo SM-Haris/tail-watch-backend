@@ -54,25 +54,25 @@ if auth_response.status_code == 200:
         },
     ]
 
-    # To create tags
-    create_tags_response = requests.post(tags_endpoint, headers=headers, json=data)
-    print(create_tags_response.json())
+    # # To create tags
+    # create_tags_response = requests.post(tags_endpoint, headers=headers, json=data)
+    # print(create_tags_response.json())
 
-    # To create bulk tags
-    bulk_tags_response = requests.post(tags_bulk_endpoint, headers=headers, json=bulk_data)
-    print(bulk_tags_response.json())
+    # # To create bulk tags
+    # bulk_tags_response = requests.post(tags_bulk_endpoint, headers=headers, json=bulk_data)
+    # print(bulk_tags_response.json())
 
-    # To fetch user tags
-    my_tags_response = requests.get(tags_endpoint, headers=headers)
-    print(my_tags_response.json())
+    # # To fetch user tags
+    # my_tags_response = requests.get(tags_endpoint, headers=headers)
+    # print(my_tags_response.json())
 
-    # To fetch users details
-    user_detail_response = requests.get(auth_users_endpoint, headers=headers)
-    print(user_detail_response.json())
+    # # To fetch users details
+    # user_detail_response = requests.get(auth_users_endpoint, headers=headers)
+    # print(user_detail_response.json())
 
-    # To update user data
-    update_response = requests.patch(user_update_endpoint, headers=headers, json=user_update_data)
-    print(update_response.json())
+    # # To update user data
+    # update_response = requests.patch(user_update_endpoint, headers=headers, json=user_update_data)
+    # print(update_response.json())
 
 else:
     print("Authentication failed")

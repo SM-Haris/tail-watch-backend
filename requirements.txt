@@ -9,5 +9,6 @@ psycopg2
 qrcode
 django-filter
 djangorestframework-bulk
-pytest 
+pytest
 pytest-django
+concurrent-log-handler

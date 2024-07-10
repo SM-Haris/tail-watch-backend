@@ -13,7 +13,8 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 from pathlib import Path
 import os
 import logging
-from logging.handlers import TimedRotatingFileHandler
+from concurrent_log_handler import ConcurrentRotatingFileHandler
+from datetime import timedelta
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -28,8 +29,7 @@ SECRET_KEY = "django-insecure-k%keeuvili3gm&yx@q4g*e3!u!a2gc%gti@@#$)l8!rel5h+k4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ["localhost"]
 
 # Application definition
 
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "tags",
     "admin_api",
     "users",
+    "history",
     "rest_framework",
     "rest_framework_simplejwt",
     "rest_framework.authtoken",
@@ -52,10 +53,10 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    "corsheaders.middleware.CorsMiddleware",
-    'tail_watch.middleware.ExceptionLoggingMiddleware',
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
+    "tail_watch.middleware.ExceptionLoggingMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -65,11 +66,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "tail_watch.urls"
 
-CORS_URLS_REGEX = r"^/api/.*$"
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8000",
-    "http://localhost:3000",
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^http:\/\/localhost:*([0-9]+)?$",
 ]
+CORS_URLS_REGEX = r"^/api/.*$"
 
 TEMPLATES = [
     {
@@ -110,11 +110,11 @@ DATABASES = {
         "PASSWORD": "1234",
         "HOST": "localhost",
         "PORT": "5432",
-        'OPTIONS': {
-            'connect_timeout': 10,  # Timeout for database connections
+        "OPTIONS": {
+            "connect_timeout": 10,  # Timeout for database connections
         },
-        'CONN_MAX_AGE': 60,  # Reuse database connections for 60 seconds
-        'ATOMIC_REQUESTS': True,  # Wrap each request in a transaction
+        "CONN_MAX_AGE": 60,  # Reuse database connections for 60 seconds
+        "ATOMIC_REQUESTS": True,  # Wrap each request in a transaction
     }
 }
 
@@ -177,6 +177,7 @@ REST_FRAMEWORK = {
 }
 
 SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=120),
     "AUTH_HEADER_TYPES": ("Bearer",),
 }
 
@@ -186,49 +187,50 @@ AUTHENTICATION_BACKENDS = [
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+if not os.path.exists(os.path.join(BASE_DIR, "logs")):
+    os.makedirs(os.path.join(BASE_DIR, "logs"))
+
 LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'formatters': {
-        'verbose': {
-            'format': '{levelname} {asctime} {module} {message}',
-            'style': '{',
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "verbose": {
+            "format": "{levelname} {asctime} {module} {message}",
+            "style": "{",
         },
-        'simple': {
-            'format': '{levelname} {message}',
-            'style': '{',
-        },
-    },
-    'handlers': {
-        'file': {
-            'level': 'INFO',
-            'class': 'logging.handlers.TimedRotatingFileHandler',
-            'filename': os.path.join(BASE_DIR, 'logs', 'audit.log'),
-            'when': 'midnight',
-            'interval': 1,
-            'backupCount': 5,  # Keep 5 days of logs
-            'formatter': 'verbose',
-        },
-        'error_file': {
-            'level': 'ERROR',
-            'class': 'logging.FileHandler',
-            'filename': os.path.join(BASE_DIR, 'logs', 'error.log'),
+        "simple": {
+            "format": "{levelname} {message}",
+            "style": "{",
         },
     },
-    'loggers': {
-        'django': {
-            'handlers': ['file'],
-            'level': 'INFO',
-            'propagate': True,
+    "handlers": {
+        "file": {
+            "level": "INFO",
+            "class": "concurrent_log_handler.ConcurrentRotatingFileHandler",
+            "filename": os.path.join(BASE_DIR, "logs", "audit.log"),
+            "maxBytes": 10 * 1024 * 1024,  # 10 MB
+            "backupCount": 5,  # Keep 5 backups
+            "formatter": "verbose",
         },
-        'error_logger': {
-            'handlers': ['error_file'],
-            'level': 'ERROR',
-            'propagate': True,
+        "error_file": {
+            "level": "ERROR",
+            "class": "concurrent_log_handler.ConcurrentRotatingFileHandler",
+            "filename": os.path.join(BASE_DIR, "logs", "error.log"),
+            "maxBytes": 10 * 1024 * 1024,  # 10 MB
+            "backupCount": 5,  # Keep 5 backups
+            "formatter": "verbose",
+        },
+    },
+    "loggers": {
+        "django": {
+            "handlers": ["file"],
+            "level": "INFO",
+            "propagate": True,
+        },
+        "error_logger": {
+            "handlers": ["error_file"],
+            "level": "ERROR",
+            "propagate": True,
         },
     },
 }
-
-# Create logs directory if it does not exist
-if not os.path.exists(os.path.join(BASE_DIR, 'logs')):
-    os.makedirs(os.path.join(BASE_DIR, 'logs'))
