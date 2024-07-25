@@ -1,6 +1,6 @@
 import requests
-import resend
-
+from django.core.mail import send_mail
+from rest_framework.exceptions import ValidationError
 
 def get_location_from_coordinates(latitude, longitude):
     url = f"https://nominatim.openstreetmap.org/reverse?format=json&lat={latitude}&lon={longitude}&zoom=18&addressdetails=1&accept-language=en"
@@ -17,8 +17,6 @@ def get_location_from_coordinates(latitude, longitude):
 
 
 def send_email_notification(latitude, longitude, location):
-    resend.api_key = "re_RFCZPU5C_GHBS9tCy2jD9C4iCHu7F6Bf3"  
-
     html_content = f"""
     <!DOCTYPE html>
     <html>
@@ -61,12 +59,14 @@ def send_email_notification(latitude, longitude, location):
     </html>
     """
 
-    resend.Emails.send({
-        "from": "onboarding@resend.dev",  
-        "to": "dev.muhammad.haris@gmail.com",  
-        "subject": "Pet Location Alert",
-        "html": html_content,
-    })
-
-
-
+    try:
+      send_mail(
+          from_email="smh261290@gmail.com",
+          recipient_list=["dev.muhammad.haris@gmail.com"],
+          subject="Pet Location Alert",
+          message="",
+          html_message=html_content,
+          fail_silently=False
+      )
+    except Exception as e:
+        raise ValidationError("Invalid Email provided by user")

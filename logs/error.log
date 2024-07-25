@@ -679,3 +679,80 @@ ERROR 2024-07-24 20:13:50,694 mixins Error: {'password': [ErrorDetail(string='Th
 ERROR 2024-07-24 20:13:51,147 mixins Error: {'address': [ErrorDetail(string='This field is required.', code='required')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
 ERROR 2024-07-24 20:13:51,152 mixins Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
 ERROR 2024-07-24 20:13:52,867 mixins Error: {'password': [ErrorDetail(string='Password must contain at least 8 characters, including uppercase, lowercase, digits, and special characters.', code='invalid')]} | User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+ERROR 2024-07-25 19:50:11,418 rest_exception_handler Unhandled error: Got a `TypeError` when calling `History.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `History.objects.create()`. You may need to make the field read-only, or override the HistoryCreateSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Projects\tail_watch_backend\history\models.py", line 15, in save
+    self.address = get_location_from_coordinates(self.latitude, self.longitude)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\history\utils.py", line 16, in get_location_from_coordinates
+    send_email_notification(latitude, longitude, "Location not verbally deduceable")
+  File "D:\Projects\tail_watch_backend\history\utils.py", line 72, in send_email_notification
+    send_mail(
+TypeError: send_mail() missing 1 required positional argument: 'message'
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Projects\tail_watch_backend\history\models.py", line 15, in save
+    self.address = get_location_from_coordinates(self.latitude, self.longitude)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\history\utils.py", line 16, in get_location_from_coordinates
+    send_email_notification(latitude, longitude, "Location not verbally deduceable")
+  File "D:\Projects\tail_watch_backend\history\utils.py", line 72, in send_email_notification
+    send_mail(
+TypeError: send_mail() missing 1 required positional argument: 'message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\mixins.py", line 24, in perform_create
+    serializer.save()
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 1008, in create
+    raise TypeError(msg)
+TypeError: Got a `TypeError` when calling `History.objects.create()`. This may be because you have a writable field on the serializer class that is not a valid argument to `History.objects.create()`. You may need to make the field read-only, or override the HistoryCreateSerializer.create() method to handle this correctly.
+Original exception was:
+ Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\rest_framework\serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\db\models\query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\Projects\tail_watch_backend\history\models.py", line 15, in save
+    self.address = get_location_from_coordinates(self.latitude, self.longitude)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\history\utils.py", line 16, in get_location_from_coordinates
+    send_email_notification(latitude, longitude, "Location not verbally deduceable")
+  File "D:\Projects\tail_watch_backend\history\utils.py", line 72, in send_email_notification
+    send_mail(
+TypeError: send_mail() missing 1 required positional argument: 'message'
+
+ERROR 2024-07-25 20:29:42,001 mixins Error: No active account found with the given credentials | User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+ERROR 2024-07-25 20:30:05,822 mixins Error: {'username': [ErrorDetail(string='A user with that username already exists.', code='unique')]} | User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
