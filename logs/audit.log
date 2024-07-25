@@ -2176,3 +2176,876 @@ WARNING 2024-07-10 17:46:59,851 basehttp "GET /api/auth/me/ HTTP/1.1" 403 183
 INFO 2024-07-10 17:46:59,855 mixins User: Anonymous | Method: GET | Path: /api/auth/me/ | Status: 403 | IP: 127.0.0.1
 WARNING 2024-07-10 17:46:59,856 log Forbidden: /api/auth/me/
 WARNING 2024-07-10 17:46:59,856 basehttp "GET /api/auth/me/ HTTP/1.1" 403 183
+INFO 2024-07-20 12:32:09,000 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:32:24,568 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-20 12:32:24,569 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-20 12:32:28,976 log Internal Server Error: /api/history/
+ERROR 2024-07-20 12:32:28,977 basehttp "POST /api/history/ HTTP/1.1" 500 58
+INFO 2024-07-20 12:36:03,368 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:36:04,253 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:36:05,770 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:36:06,640 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:36:12,297 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:36:13,185 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:36:20,303 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-20 12:36:20,304 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-20 12:36:23,609 log Internal Server Error: /api/history/
+ERROR 2024-07-20 12:36:23,609 basehttp "POST /api/history/ HTTP/1.1" 500 58
+INFO 2024-07-20 12:38:56,032 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:38:56,913 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:39:07,823 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:39:08,688 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:39:10,169 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:39:12,224 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:39:39,292 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:39:44,096 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-20 12:39:44,097 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-20 12:39:47,356 log Internal Server Error: /api/history/
+ERROR 2024-07-20 12:39:47,356 basehttp "POST /api/history/ HTTP/1.1" 500 58
+INFO 2024-07-20 12:40:52,816 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:40:53,697 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:40:56,245 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:40:57,107 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:40:58,586 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:40:59,479 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:41:03,915 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-20 12:41:03,916 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-20 12:41:07,212 log Internal Server Error: /api/history/
+ERROR 2024-07-20 12:41:07,212 basehttp "POST /api/history/ HTTP/1.1" 500 58
+INFO 2024-07-20 12:41:21,402 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:41:22,282 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:41:24,821 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:41:25,702 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:41:27,191 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:41:28,064 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:41:31,948 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-20 12:41:31,949 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+ERROR 2024-07-20 12:41:35,350 log Internal Server Error: /api/history/
+ERROR 2024-07-20 12:41:35,351 basehttp "POST /api/history/ HTTP/1.1" 500 58
+INFO 2024-07-20 12:41:49,120 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:41:50,006 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:41:56,286 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-20 12:41:56,287 basehttp "POST /api/auth/login/ HTTP/1.1" 200 736
+INFO 2024-07-20 12:41:59,643 basehttp "POST /api/history/ HTTP/1.1" 201 95
+INFO 2024-07-20 12:47:36,043 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:47:36,928 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:48:07,742 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:48:08,631 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 12:48:21,638 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-20 12:48:22,528 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:08:18,389 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:08:19,307 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:08:46,973 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:08:47,841 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:08:50,413 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:08:51,269 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:09:01,124 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:09:01,993 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:09:11,897 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:09:12,762 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:09:26,812 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:09:27,669 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:10:15,226 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:10:16,081 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:20:50,387 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:20:51,261 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:20:52,786 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:20:53,638 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:20:58,271 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:20:59,137 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:21:15,267 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:21:16,136 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:22:43,446 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:22:44,322 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:14,825 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:15,734 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:17,228 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:18,081 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:20,646 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:21,516 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:23,015 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:23,878 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:25,358 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:26,283 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:28,826 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:29,680 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:31,174 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:32,053 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:34,610 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:35,479 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:36,993 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:37,873 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:39,362 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:40,234 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:43,836 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:44,679 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:49,309 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:50,162 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:24:51,445 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:24:52,295 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:25:01,133 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:25:01,987 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:25:20,240 autoreload D:\Projects\tail_watch_backend\users\utils.py changed, reloading.
+INFO 2024-07-20 13:25:21,112 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:25:27,867 autoreload D:\Projects\tail_watch_backend\users\utils.py changed, reloading.
+INFO 2024-07-20 13:25:28,723 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:25:32,319 autoreload D:\Projects\tail_watch_backend\users\utils.py changed, reloading.
+INFO 2024-07-20 13:25:33,224 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:25:53,559 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:25:54,418 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:25:56,963 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:25:57,865 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:27:33,546 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:27:34,403 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:27:36,958 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:27:37,812 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:27:40,369 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:27:41,256 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:27:42,757 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:27:43,604 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:27:46,144 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:27:46,994 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:27:50,568 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:27:51,495 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:27:57,189 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:27:58,070 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:27:59,347 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:28:00,197 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:28:01,704 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:28:02,564 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:28:38,596 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:28:39,457 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:30:35,255 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:30:36,123 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:30:54,389 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:30:55,239 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:31:26,050 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:31:26,899 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:31:44,109 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:31:44,971 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:31:46,238 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:31:47,106 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:31:53,763 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:31:54,611 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:32:04,418 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:32:05,301 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:32:08,681 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:32:09,554 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:32:17,099 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:32:17,950 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:32:22,348 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:32:23,211 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:33:03,134 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:33:03,989 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:50,324 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:37:51,207 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:53,550 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:37:54,393 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:55,668 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:37:56,519 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:37:59,881 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:38:00,725 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:38:04,074 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:38:04,931 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:38:09,368 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:38:10,212 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:38:12,536 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:38:13,409 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:38:15,767 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:38:16,634 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:38:17,903 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:38:18,785 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:38:28,411 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:38:29,252 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:39:04,994 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:39:05,886 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:39:09,264 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:39:10,112 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:39:16,604 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:39:17,443 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:39:20,804 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:39:21,666 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:39:25,040 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:39:25,879 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:39:29,404 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:39:30,247 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:39:56,885 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:39:57,741 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:03,194 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:40:04,086 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:05,352 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:40:06,201 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:09,562 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:40:10,425 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:11,699 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:40:12,541 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:17,175 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:40:18,024 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:20,340 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:40:21,179 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:22,656 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:40:23,550 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:33,445 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:40:34,333 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:37,897 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:40:38,741 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:41,236 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:40:42,101 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:48,789 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:40:49,644 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:52,121 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:40:52,976 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:55,483 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:40:56,352 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:40:58,695 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:40:59,575 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:41:22,006 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:41:22,849 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:41:32,746 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:41:33,596 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:41:43,457 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:41:44,314 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:00,250 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:43:01,135 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:12,067 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:43:12,916 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:19,652 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:43:20,518 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:24,158 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:43:25,057 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:39,117 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:43:39,984 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:50,900 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:43:51,765 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:43:57,458 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:43:58,329 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:44:01,923 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:44:02,776 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:45:57,445 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 13:45:58,303 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:10,031 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:46:10,892 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:25,942 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:46:26,798 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:28,082 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:46:28,944 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:30,212 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:46:31,101 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:44,103 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:46:44,974 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:46:50,448 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:46:51,310 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:47:00,939 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:47:01,801 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:47:03,083 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:47:03,931 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:47:06,256 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:47:07,104 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:47:08,369 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:47:09,230 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:47:10,511 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:47:11,434 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:48:25,828 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:48:26,705 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:48:32,161 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:48:33,031 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:48:34,301 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:48:35,147 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:48:36,419 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:48:37,332 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:49:24,584 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:49:25,469 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:49:26,749 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:49:27,600 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:49:32,017 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:49:32,858 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:50:40,948 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:50:41,824 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:50:43,101 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:50:43,968 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:50:45,237 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:50:46,074 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:50:56,750 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:50:57,596 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:51:02,011 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:51:02,859 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:51:04,138 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:51:05,039 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:51:16,779 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:51:17,673 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:58:48,754 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:58:49,619 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:58:53,000 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:58:53,915 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:59:02,486 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:59:03,348 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 13:59:17,402 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 13:59:18,271 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:00:35,137 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 14:00:35,997 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:00:59,507 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 14:01:00,372 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:01:14,455 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 14:01:15,320 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:03:16,190 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 14:03:17,087 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:03:21,744 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 14:03:22,618 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:03:24,101 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 14:03:25,025 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:03:33,635 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:03:34,495 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:03:36,814 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:03:37,669 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:03:43,359 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:03:44,205 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:04:22,344 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:04:23,192 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:04:25,760 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:04:26,609 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:04:35,438 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:04:36,301 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:04:40,934 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:04:41,804 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:04:46,226 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:04:47,073 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:04:49,388 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:04:50,280 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:04:55,728 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:04:56,586 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:04:57,856 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:04:58,721 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:01,040 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:01,894 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:04,226 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:05,098 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:06,378 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:07,233 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:09,554 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:10,407 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:12,722 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:13,603 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:16,998 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:17,843 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:21,195 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:22,039 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:24,363 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:25,217 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:35,895 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:36,792 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:39,113 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:39,963 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:42,288 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:43,139 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:47,574 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:48,433 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:54,921 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:55,768 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:05:59,119 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:05:59,983 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:06:02,290 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:06:03,152 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:06:05,459 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:06:06,332 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:06:08,651 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:06:09,507 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:06:20,406 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:06:21,253 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:06:46,805 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:06:47,656 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:40:47,024 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:40:47,964 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:40:50,293 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:40:51,167 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:40:54,767 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:40:55,645 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:40:59,222 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:41:00,072 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:41:05,530 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:41:06,390 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:41:07,881 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:41:08,730 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:42:31,932 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:42:32,806 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:42:35,175 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:42:36,040 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:42:37,315 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:42:38,182 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:42:41,716 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:42:42,566 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:42:47,140 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:42:48,004 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:42:54,734 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:42:55,623 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:43:10,707 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:43:11,578 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:43:26,711 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:43:27,564 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:43:30,922 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:43:31,849 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:43:34,382 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:43:35,246 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:43:38,599 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:43:39,505 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:43:42,870 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:43:43,740 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:43:58,893 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:43:59,737 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:44:06,255 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:44:07,109 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:44:09,606 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:44:10,464 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:44:31,834 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:44:32,697 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:44:36,265 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:44:37,136 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:44:38,423 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:44:39,280 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:44:46,993 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:44:47,859 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:44:50,404 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:44:51,262 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:44:52,742 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:44:53,606 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:44:55,116 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:44:55,980 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:45:02,661 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:45:03,520 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:45:06,892 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:45:07,748 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:45:10,248 autoreload D:\Projects\tail_watch_backend\users\views.py changed, reloading.
+INFO 2024-07-20 14:45:11,111 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:45:42,992 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:45:43,855 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:45:50,387 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:45:51,248 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:45:57,746 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:45:58,598 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:46:07,180 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:46:08,032 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:46:09,314 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:46:10,189 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:46:12,506 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:46:13,355 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:46:15,680 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:46:16,525 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:46:18,843 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:46:19,724 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:46:20,988 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:46:21,890 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:46:23,155 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:46:24,001 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:46:33,623 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:46:34,475 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:46:36,806 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:46:37,692 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:46:44,184 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:46:45,043 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:46:51,760 autoreload D:\Projects\tail_watch_backend\users\urls.py changed, reloading.
+INFO 2024-07-20 14:46:52,605 autoreload Watching for file changes with StatReloader
+ERROR 2024-07-20 14:47:08,525 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-07-20 14:47:08,849 log Bad Request: /
+WARNING 2024-07-20 14:47:08,850 basehttp "GET / HTTP/1.1" 400 75635
+ERROR 2024-07-20 14:47:09,019 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-07-20 14:47:09,038 log Bad Request: /favicon.ico
+WARNING 2024-07-20 14:47:09,039 basehttp "GET /favicon.ico HTTP/1.1" 400 75560
+ERROR 2024-07-20 14:47:13,225 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-07-20 14:47:13,242 log Bad Request: /admin/login/
+WARNING 2024-07-20 14:47:13,243 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 400 76247
+ERROR 2024-07-20 14:47:13,305 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-07-20 14:47:13,323 log Bad Request: /favicon.ico
+WARNING 2024-07-20 14:47:13,324 basehttp "GET /favicon.ico HTTP/1.1" 400 75585
+ERROR 2024-07-20 14:47:19,227 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-07-20 14:47:19,246 log Bad Request: /admin/login
+WARNING 2024-07-20 14:47:19,247 basehttp "GET /admin/login HTTP/1.1" 400 75863
+ERROR 2024-07-20 14:47:19,309 exception Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\utils\deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\tail_watch_backend\venv\Lib\site-packages\django\http\request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+WARNING 2024-07-20 14:47:19,329 log Bad Request: /favicon.ico
+WARNING 2024-07-20 14:47:19,329 basehttp "GET /favicon.ico HTTP/1.1" 400 75571
+INFO 2024-07-20 14:47:48,963 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
+INFO 2024-07-20 14:47:49,826 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:47:52,394 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
+INFO 2024-07-20 14:47:53,267 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:48:03,292 basehttp "GET /admin/login HTTP/1.1" 302 0
+INFO 2024-07-20 14:48:03,460 basehttp "GET /admin/login/?next=/admin/login HTTP/1.1" 200 4191
+INFO 2024-07-20 14:48:03,732 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2024-07-20 14:48:03,740 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2024-07-20 14:48:03,744 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-07-20 14:48:03,748 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2024-07-20 14:48:03,752 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2024-07-20 14:48:03,759 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-07-20 14:48:03,765 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+WARNING 2024-07-20 14:48:03,814 log Not Found: /favicon.ico
+WARNING 2024-07-20 14:48:03,814 basehttp "GET /favicon.ico HTTP/1.1" 404 2554
+INFO 2024-07-20 14:48:10,210 basehttp "POST /admin/login/?next=/admin/login HTTP/1.1" 302 0
+INFO 2024-07-20 14:48:10,214 basehttp "GET /admin/login HTTP/1.1" 301 0
+INFO 2024-07-20 14:48:10,218 basehttp "GET /admin/login/ HTTP/1.1" 302 0
+INFO 2024-07-20 14:48:10,270 basehttp "GET /admin/ HTTP/1.1" 200 7772
+INFO 2024-07-20 14:48:10,294 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-07-20 14:48:10,308 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-07-20 14:48:10,309 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-07-20 14:48:14,080 basehttp "GET /admin/users/customuser/ HTTP/1.1" 200 10235
+INFO 2024-07-20 14:48:14,119 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-07-20 14:48:14,130 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2024-07-20 14:48:14,138 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2024-07-20 14:48:14,141 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2024-07-20 14:48:14,147 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-07-20 14:48:14,147 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2024-07-20 14:48:14,153 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-07-20 14:48:14,157 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-07-20 14:48:14,187 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2024-07-20 14:48:14,200 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-07-20 14:48:14,204 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-07-20 14:48:14,223 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-07-20 14:48:15,880 basehttp "GET /admin/users/customuser/c540786a-15f9-48ba-add7-be4bc1f43d39/change/ HTTP/1.1" 200 23166
+INFO 2024-07-20 14:48:15,910 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+INFO 2024-07-20 14:48:15,911 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-07-20 14:48:15,918 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-07-20 14:48:15,922 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+INFO 2024-07-20 14:48:15,923 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2024-07-20 14:48:15,930 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-07-20 14:48:15,949 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-07-20 14:48:15,985 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-07-20 14:48:15,995 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-07-20 14:48:30,465 basehttp "POST /admin/users/customuser/c540786a-15f9-48ba-add7-be4bc1f43d39/change/ HTTP/1.1" 302 0
+INFO 2024-07-20 14:48:30,476 basehttp "GET /admin/users/customuser/ HTTP/1.1" 200 10476
+INFO 2024-07-20 14:48:30,496 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2024-07-20 14:48:30,532 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+WARNING 2024-07-20 14:48:41,923 log Not Found: /api/login
+WARNING 2024-07-20 14:48:41,924 basehttp "GET /api/login HTTP/1.1" 404 2548
+INFO 2024-07-20 14:48:53,566 basehttp "GET /api/auth/login HTTP/1.1" 301 0
+INFO 2024-07-20 14:48:53,570 mixins User: Anonymous | Method: GET | Path: /api/auth/login/ | Status: 405 | IP: 127.0.0.1
+WARNING 2024-07-20 14:48:53,640 log Method Not Allowed: /api/auth/login/
+WARNING 2024-07-20 14:48:53,641 basehttp "GET /api/auth/login/ HTTP/1.1" 405 7422
+INFO 2024-07-20 14:48:53,675 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-07-20 14:48:53,686 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-07-20 14:48:53,687 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-07-20 14:48:53,690 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-07-20 14:48:53,692 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-07-20 14:48:53,700 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-07-20 14:48:53,704 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-07-20 14:48:53,708 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-07-20 14:48:53,720 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-07-20 14:48:53,735 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-07-20 14:48:53,740 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-07-20 14:48:53,760 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-07-20 14:49:21,403 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-20 14:49:21,407 basehttp "POST /api/auth/login/ HTTP/1.1" 200 8354
+WARNING 2024-07-20 14:49:38,065 log Method Not Allowed: /api/auth/password-reset/
+WARNING 2024-07-20 14:49:38,066 basehttp "GET /api/auth/password-reset/ HTTP/1.1" 405 7308
+WARNING 2024-07-20 14:49:49,721 log Bad Request: /api/auth/password-reset/
+WARNING 2024-07-20 14:49:49,721 basehttp "POST /api/auth/password-reset/ HTTP/1.1" 400 7549
+INFO 2024-07-20 14:50:26,675 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:50:27,578 autoreload Watching for file changes with StatReloader
+ERROR 2024-07-20 14:50:28,676 log Internal Server Error: /api/auth/password-reset/
+ERROR 2024-07-20 14:50:28,677 basehttp "POST /api/auth/password-reset/ HTTP/1.1" 500 7320
+ERROR 2024-07-20 14:50:32,410 log Internal Server Error: /api/auth/password-reset/
+ERROR 2024-07-20 14:50:32,411 basehttp "POST /api/auth/password-reset/ HTTP/1.1" 500 7320
+ERROR 2024-07-20 14:50:37,885 log Internal Server Error: /api/auth/password-reset/
+ERROR 2024-07-20 14:50:37,885 basehttp "POST /api/auth/password-reset/ HTTP/1.1" 500 7320
+INFO 2024-07-20 14:51:24,577 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 14:51:25,445 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:51:26,992 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 14:51:27,858 autoreload Watching for file changes with StatReloader
+ERROR 2024-07-20 14:51:31,034 log Internal Server Error: /api/auth/password-reset/
+ERROR 2024-07-20 14:51:31,034 basehttp "POST /api/auth/password-reset/ HTTP/1.1" 500 7320
+WARNING 2024-07-20 14:51:37,093 log Bad Request: /api/auth/password-reset/
+WARNING 2024-07-20 14:51:37,093 basehttp "POST /api/auth/password-reset/ HTTP/1.1" 400 7405
+ERROR 2024-07-20 14:51:41,325 log Internal Server Error: /api/auth/password-reset/
+ERROR 2024-07-20 14:51:41,325 basehttp "POST /api/auth/password-reset/ HTTP/1.1" 500 7320
+INFO 2024-07-20 14:52:13,523 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 14:52:14,379 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:53:38,559 autoreload D:\Projects\tail_watch_backend\users\serializers.py changed, reloading.
+INFO 2024-07-20 14:53:39,422 autoreload Watching for file changes with StatReloader
+ERROR 2024-07-20 14:53:44,572 log Internal Server Error: /api/auth/password-reset/
+ERROR 2024-07-20 14:53:44,572 basehttp "POST /api/auth/password-reset/ HTTP/1.1" 500 7320
+INFO 2024-07-20 14:54:24,261 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:54:25,136 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:54:30,780 basehttp "POST /api/auth/password-reset/ HTTP/1.1" 200 7305
+WARNING 2024-07-20 14:55:40,746 log Method Not Allowed: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 14:55:40,747 basehttp "GET /api/auth/password-reset-confirm/ HTTP/1.1" 405 7910
+WARNING 2024-07-20 14:56:09,352 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 14:56:09,353 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8301
+WARNING 2024-07-20 14:56:26,034 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 14:56:26,035 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8301
+INFO 2024-07-20 14:56:51,800 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:56:52,734 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:56:55,339 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:56:56,210 autoreload Watching for file changes with StatReloader
+WARNING 2024-07-20 14:56:57,497 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 14:56:57,498 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8301
+WARNING 2024-07-20 14:57:00,343 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 14:57:00,344 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8301
+WARNING 2024-07-20 14:57:05,823 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 14:57:05,823 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8301
+INFO 2024-07-20 14:57:33,310 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:57:34,182 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:57:37,788 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:57:38,634 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:57:43,256 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:57:44,111 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:57:45,583 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:57:46,431 autoreload Watching for file changes with StatReloader
+WARNING 2024-07-20 14:57:53,551 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 14:57:53,552 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8228
+INFO 2024-07-20 14:58:16,385 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:58:17,238 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:58:19,817 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:58:20,697 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:58:23,242 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:58:24,105 autoreload Watching for file changes with StatReloader
+WARNING 2024-07-20 14:58:24,850 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 14:58:24,851 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8228
+INFO 2024-07-20 14:58:39,226 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:58:40,106 autoreload Watching for file changes with StatReloader
+WARNING 2024-07-20 14:58:40,838 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 14:58:40,839 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8233
+INFO 2024-07-20 14:58:46,913 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:58:47,803 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:58:52,458 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 14:58:53,308 autoreload Watching for file changes with StatReloader
+WARNING 2024-07-20 14:59:19,940 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 14:59:19,940 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8234
+WARNING 2024-07-20 14:59:21,171 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 14:59:21,171 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8234
+WARNING 2024-07-20 14:59:21,684 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 14:59:21,685 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8234
+INFO 2024-07-20 14:59:53,731 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:59:54,619 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:59:55,905 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 14:59:56,806 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 14:59:59,377 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 15:00:00,221 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 15:00:03,789 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-20 15:00:04,651 autoreload Watching for file changes with StatReloader
+WARNING 2024-07-20 15:00:23,405 log Method Not Allowed: /api/auth/password-reset/
+WARNING 2024-07-20 15:00:23,405 basehttp "GET /api/auth/password-reset/ HTTP/1.1" 405 7308
+INFO 2024-07-20 15:00:27,287 basehttp "POST /api/auth/password-reset/ HTTP/1.1" 200 7305
+WARNING 2024-07-20 15:00:51,818 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:00:51,819 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8234
+INFO 2024-07-20 15:01:16,720 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 15:01:17,586 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 15:04:28,085 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 15:04:36,701 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 15:04:37,580 autoreload Watching for file changes with StatReloader
+WARNING 2024-07-20 15:04:40,738 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:04:40,739 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8200
+WARNING 2024-07-20 15:04:43,032 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:04:43,032 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8200
+WARNING 2024-07-20 15:04:44,266 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:04:44,267 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8200
+WARNING 2024-07-20 15:04:44,899 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:04:44,900 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8200
+WARNING 2024-07-20 15:04:45,307 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:04:45,307 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8200
+WARNING 2024-07-20 15:04:45,497 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:04:45,498 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8200
+WARNING 2024-07-20 15:04:45,655 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:04:45,656 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8200
+WARNING 2024-07-20 15:04:45,836 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:04:45,836 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8200
+WARNING 2024-07-20 15:04:45,999 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:04:45,999 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8200
+WARNING 2024-07-20 15:04:46,152 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:04:46,153 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8200
+WARNING 2024-07-20 15:04:46,310 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:04:46,310 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8200
+WARNING 2024-07-20 15:04:46,483 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:04:46,483 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8200
+INFO 2024-07-20 15:05:45,304 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 15:05:46,215 autoreload Watching for file changes with StatReloader
+WARNING 2024-07-20 15:05:48,136 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:05:48,137 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8201
+WARNING 2024-07-20 15:05:50,456 log Bad Request: /api/auth/password-reset-confirm/
+WARNING 2024-07-20 15:05:50,456 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 400 8201
+INFO 2024-07-20 15:05:58,368 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 15:05:59,238 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 15:06:01,783 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 15:06:02,694 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 15:06:06,277 autoreload D:\Projects\tail_watch_backend\users\validators.py changed, reloading.
+INFO 2024-07-20 15:06:07,218 autoreload Watching for file changes with StatReloader
+INFO 2024-07-20 15:06:09,528 basehttp "POST /api/auth/password-reset-confirm/ HTTP/1.1" 200 7862
+INFO 2024-07-20 15:07:00,707 mixins User: Anonymous | Method: GET | Path: /api/auth/login/ | Status: 405 | IP: 127.0.0.1
+WARNING 2024-07-20 15:07:00,712 log Method Not Allowed: /api/auth/login/
+WARNING 2024-07-20 15:07:00,713 basehttp "GET /api/auth/login/ HTTP/1.1" 405 7422
+INFO 2024-07-20 15:07:10,918 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-20 15:07:10,923 basehttp "POST /api/auth/login/ HTTP/1.1" 200 8354
+INFO 2024-07-21 17:05:01,568 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-21 17:05:02,050 mixins User: testuser | Method: DELETE | Path: /api/tags/3bdecc84-9232-456e-93b0-80ddce25ae59/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-21 17:05:02,519 mixins User: testuser | Method: GET | Path: /api/tags/df46c9ec-921b-44ec-884d-592832859b86/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-21 17:05:02,988 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-21 17:05:03,472 mixins User: testuser | Method: PUT | Path: /api/tags/54842990-599b-4132-afae-6a509bc07411/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-21 17:05:05,742 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-21 17:05:06,657 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-21 17:05:06,658 log Unauthorized: /api/auth/login/
+INFO 2024-07-21 17:05:07,108 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-21 17:05:07,108 log Bad Request: /api/auth/login/
+INFO 2024-07-21 17:05:07,112 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-21 17:05:07,113 log Unauthorized: /api/auth/signup/
+INFO 2024-07-21 17:05:07,271 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-21 17:05:07,272 log Unauthorized: /api/auth/signup/
+INFO 2024-07-21 17:05:07,281 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-21 17:05:07,282 log Unauthorized: /api/auth/signup/
+INFO 2024-07-21 17:05:08,176 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-21 17:05:09,061 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-21 17:05:09,062 log Bad Request: /api/auth/update/
+INFO 2024-07-21 17:05:09,935 mixins User: admin | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-21 17:07:04,385 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-21 17:07:04,930 mixins User: testuser | Method: DELETE | Path: /api/tags/47f6805d-a2af-4590-bd6a-a7a7c537ad92/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-21 17:07:05,456 mixins User: testuser | Method: GET | Path: /api/tags/bbdd4018-bf9c-440b-bca0-d072c42d3702/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-21 17:07:06,018 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-21 17:07:06,536 mixins User: testuser | Method: PUT | Path: /api/tags/fa8dd473-f055-428f-b509-44bb38c6f3c6/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-21 17:07:08,922 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-21 17:07:09,816 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-21 17:07:09,817 log Unauthorized: /api/auth/login/
+INFO 2024-07-21 17:07:10,274 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-21 17:07:10,274 log Bad Request: /api/auth/login/
+INFO 2024-07-21 17:07:10,742 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-21 17:07:10,748 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-21 17:07:10,749 log Bad Request: /api/auth/signup/
+INFO 2024-07-21 17:07:10,755 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-21 17:07:10,756 log Bad Request: /api/auth/signup/
+INFO 2024-07-21 17:07:11,644 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-21 17:07:12,526 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-21 17:07:12,527 log Bad Request: /api/auth/update/
+INFO 2024-07-21 17:07:13,411 mixins User: admin | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 19:53:20,346 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-24 19:53:20,827 mixins User: testuser | Method: DELETE | Path: /api/tags/84426bb1-250f-4862-a0ae-b9b29cc74909/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-24 19:53:21,285 mixins User: testuser | Method: GET | Path: /api/tags/67ba4a5d-9c5b-4c15-843b-ec133acb07fd/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 19:53:21,748 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 19:53:22,224 mixins User: testuser | Method: PUT | Path: /api/tags/67a8d565-6161-4c09-ac18-31874da38505/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 19:53:24,445 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 19:53:25,335 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-24 19:53:25,335 log Unauthorized: /api/auth/login/
+INFO 2024-07-24 19:53:25,769 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-24 19:53:25,769 log Bad Request: /api/auth/login/
+INFO 2024-07-24 19:53:26,224 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-24 19:53:26,230 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-24 19:53:26,230 log Bad Request: /api/auth/signup/
+INFO 2024-07-24 19:53:26,235 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-24 19:53:26,236 log Bad Request: /api/auth/signup/
+INFO 2024-07-24 19:53:27,099 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 19:53:27,963 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-24 19:53:27,964 log Bad Request: /api/auth/update/
+INFO 2024-07-24 19:53:28,827 mixins User: admin | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 19:54:14,812 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-24 19:54:15,279 mixins User: testuser | Method: DELETE | Path: /api/tags/b0f329f2-1546-4a49-95c4-e4c6182a3be4/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-24 19:54:15,746 mixins User: testuser | Method: GET | Path: /api/tags/c481e0b0-8ebe-423e-905b-6091b6003464/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 19:54:16,215 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 19:54:16,696 mixins User: testuser | Method: PUT | Path: /api/tags/355657a1-b72a-4d64-a4e7-2fd029ca7c70/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 19:54:18,930 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 19:54:19,807 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-24 19:54:19,808 log Unauthorized: /api/auth/login/
+INFO 2024-07-24 19:54:20,249 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-24 19:54:20,250 log Bad Request: /api/auth/login/
+INFO 2024-07-24 19:54:20,695 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-24 19:54:20,701 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-24 19:54:20,702 log Bad Request: /api/auth/signup/
+INFO 2024-07-24 19:54:20,707 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-24 19:54:20,707 log Bad Request: /api/auth/signup/
+INFO 2024-07-24 19:54:21,571 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 19:54:22,447 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-24 19:54:22,448 log Bad Request: /api/auth/update/
+INFO 2024-07-24 19:54:23,326 mixins User: admin | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+WARNING 2024-07-24 20:04:34,373 log Unauthorized: /api/history/03a2d403-7357-43d9-8a95-8929d7870c11/
+WARNING 2024-07-24 20:08:17,959 log Unauthorized: /api/history/01fd2ed9-5135-4992-828f-8b6e5240a1c0/
+WARNING 2024-07-24 20:08:42,259 log Unauthorized: /api/history/a7d2d9f8-386d-4c5e-87c4-0666b28dd133/
+WARNING 2024-07-24 20:10:25,143 log Unauthorized: /api/history/7f86297a-a9e2-4255-8a5c-9a7269a1e749/
+WARNING 2024-07-24 20:10:52,263 log Unauthorized: /api/history/e5ecb143-7310-44b8-bac4-309e6f7db020/
+WARNING 2024-07-24 20:11:30,119 log Unauthorized: /api/history/c5c930ff-8160-4154-b44e-9d5fdb2ab9d6/
+INFO 2024-07-24 20:13:45,382 mixins User: testuser | Method: POST | Path: /api/tags/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-24 20:13:45,831 mixins User: testuser | Method: DELETE | Path: /api/tags/12bf5b89-5266-4fa1-a4c0-0892c31ce719/delete/ | Status: 204 | IP: 127.0.0.1
+INFO 2024-07-24 20:13:46,282 mixins User: testuser | Method: GET | Path: /api/tags/57b7f8c3-5c3d-4914-8e4a-e7fccbb4828b/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 20:13:46,737 mixins User: testuser | Method: GET | Path: /api/tags/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 20:13:47,209 mixins User: testuser | Method: PUT | Path: /api/tags/1c30f6ac-f459-4a84-b753-b9f8d3dce827/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 20:13:49,402 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 20:13:50,263 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-24 20:13:50,263 log Unauthorized: /api/auth/login/
+INFO 2024-07-24 20:13:50,694 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-24 20:13:50,695 log Bad Request: /api/auth/login/
+INFO 2024-07-24 20:13:51,140 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 201 | IP: 127.0.0.1
+INFO 2024-07-24 20:13:51,147 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-24 20:13:51,148 log Bad Request: /api/auth/signup/
+INFO 2024-07-24 20:13:51,152 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-24 20:13:51,153 log Bad Request: /api/auth/signup/
+INFO 2024-07-24 20:13:52,012 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-24 20:13:52,867 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-24 20:13:52,868 log Bad Request: /api/auth/update/
+INFO 2024-07-24 20:13:53,731 mixins User: admin | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
