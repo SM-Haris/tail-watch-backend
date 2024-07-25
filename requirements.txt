@@ -12,3 +12,4 @@ djangorestframework-bulk
 pytest
 pytest-django
 concurrent-log-handler
+python-dotenv

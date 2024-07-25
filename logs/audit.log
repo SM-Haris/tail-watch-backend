@@ -3049,3 +3049,103 @@ INFO 2024-07-24 20:13:52,012 mixins User: testuser | Method: PATCH | Path: /api/
 INFO 2024-07-24 20:13:52,867 mixins User: testuser | Method: PATCH | Path: /api/auth/update/ | Status: 400 | IP: 127.0.0.1
 WARNING 2024-07-24 20:13:52,868 log Bad Request: /api/auth/update/
 INFO 2024-07-24 20:13:53,731 mixins User: admin | Method: PATCH | Path: /api/auth/update/ | Status: 200 | IP: 127.0.0.1
+ERROR 2024-07-25 19:50:11,462 log Internal Server Error: /api/history/
+INFO 2024-07-25 20:27:37,776 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 20:27:58,290 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
+INFO 2024-07-25 20:27:59,200 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 20:29:42,001 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 401 | IP: 127.0.0.1
+WARNING 2024-07-25 20:29:42,002 log Unauthorized: /api/auth/login/
+WARNING 2024-07-25 20:29:42,003 basehttp "POST /api/auth/login/ HTTP/1.1" 401 63
+INFO 2024-07-25 20:30:05,823 mixins User: Anonymous | Method: POST | Path: /api/auth/signup/ | Status: 400 | IP: 127.0.0.1
+WARNING 2024-07-25 20:30:05,823 log Bad Request: /api/auth/signup/
+WARNING 2024-07-25 20:30:05,824 basehttp "POST /api/auth/signup/ HTTP/1.1" 400 58
+INFO 2024-07-25 20:30:32,182 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-25 20:30:32,183 basehttp "POST /api/auth/login/ HTTP/1.1" 200 750
+INFO 2024-07-25 20:30:37,685 basehttp "POST /api/history/ HTTP/1.1" 201 95
+INFO 2024-07-25 21:04:46,166 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:04:47,079 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:04:54,852 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:04:55,716 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:05:15,003 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:05:15,878 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:05:24,702 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:05:25,595 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:06:25,674 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:06:26,601 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:06:30,996 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:06:31,820 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:06:34,152 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:06:34,996 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:06:36,293 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:06:37,145 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:06:42,543 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:06:43,384 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:06:51,874 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:06:52,709 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:06:54,016 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:06:54,832 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:06:58,177 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:06:59,015 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:07:10,570 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:07:11,400 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:07:16,812 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:07:17,635 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:07:31,228 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:07:32,070 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:07:33,397 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:07:34,235 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:07:38,613 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:07:39,436 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:07:47,921 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:07:48,775 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:07:54,181 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:07:55,021 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:08:12,701 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:08:13,524 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:08:14,836 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:08:15,695 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:08:20,079 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:08:20,927 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:08:22,410 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:08:23,290 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:08:24,775 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:08:25,632 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:08:32,351 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:08:33,217 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:08:37,844 autoreload D:\Projects\tail_watch_backend\history\utils.py changed, reloading.
+INFO 2024-07-25 21:08:38,701 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:08:59,041 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:08:59,904 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:09:09,753 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:09:10,631 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:09:15,043 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:09:15,909 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:09:19,267 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:09:20,120 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:09:23,706 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:09:24,570 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:09:33,149 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:09:34,013 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:09:43,886 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:09:44,768 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:09:56,486 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:09:57,347 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:10:04,913 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:10:05,779 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:10:15,401 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:10:16,247 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:10:20,650 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:10:21,506 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:10:22,778 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:10:23,627 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:10:29,071 autoreload D:\Projects\tail_watch_backend\users\util.py changed, reloading.
+INFO 2024-07-25 21:10:29,926 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:11:19,614 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
+INFO 2024-07-25 21:11:20,478 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:11:42,919 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
+INFO 2024-07-25 21:11:43,800 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:11:45,277 autoreload D:\Projects\tail_watch_backend\tail_watch\settings.py changed, reloading.
+INFO 2024-07-25 21:11:46,173 autoreload Watching for file changes with StatReloader
+INFO 2024-07-25 21:11:50,089 mixins User: Anonymous | Method: POST | Path: /api/auth/login/ | Status: 200 | IP: 127.0.0.1
+INFO 2024-07-25 21:11:50,090 basehttp "POST /api/auth/login/ HTTP/1.1" 200 750
+INFO 2024-07-25 21:11:55,541 basehttp "POST /api/history/ HTTP/1.1" 201 95

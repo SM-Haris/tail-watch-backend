@@ -48,5 +48,4 @@ class TestHistoryViews(APITestCase):
         self.client.force_authenticate(user=self.user)
         url = reverse("history-list", args=[str(self.tag.id)])
         response = self.client.get(url)
-        print(response)
         assert response.status_code == 200

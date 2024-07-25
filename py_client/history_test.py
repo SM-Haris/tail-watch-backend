@@ -2,7 +2,7 @@ import requests
 
 # Login endpoint
 login_endpoint = "http://localhost:8000/api/auth/login/"
-login_data = {"username": "test_user_1", "password": "Mm34567*"}
+login_data = {"username": "test_user_1", "password": "Mm34567*("}
 
 # Authenticate and get the token
 auth_response = requests.post(login_endpoint, json=login_data)
