@@ -1,5 +1,5 @@
 import uuid
-from django.contrib.auth.models import AbstractUser, Group, Permission
+from django.contrib.auth.models import AbstractUser
 from django.db import models
 
 
@@ -8,17 +8,3 @@ class CustomUser(AbstractUser):
     address = models.CharField(max_length=255, null=False)
     phone_number = models.CharField(max_length=15, null=False)
     email = models.EmailField(unique=True,null=False)
-    groups = models.ManyToManyField(
-        Group,
-        related_name="customuser_set",
-        blank=True,
-        help_text="The groups this user belongs to. A user will get all permissions granted to each of their groups.",
-        related_query_name="customuser",
-    )
-    user_permissions = models.ManyToManyField(
-        Permission,
-        related_name="customuser_set",
-        blank=True,
-        help_text="Specific permissions for this user.",
-        related_query_name="customuser",
-    )
