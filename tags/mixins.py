@@ -9,6 +9,9 @@ class UserQuerySetMixin:
 
         queryset = super().get_queryset(*args, **kwargs)
 
+        if self.request.user.is_superuser:
+            return queryset
+
         return queryset.filter(**lookup_data)
 
 
